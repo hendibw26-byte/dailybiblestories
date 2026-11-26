@@ -1,0 +1,219 @@
+{
+ "title": "Daud & Goliat",
+ "reference": "1 Samuel 17",
+ "youtube_title": "Daud & Goliat | Kisah Alkitab 1 Menit",
+ "caption": "Masalahmu mungkin sebesar raksasa, tetapi Tuhanmu jauh lebih besar.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#DaudDanGoliat",
+  "#RenunganHarian",
+  "#Kristen"
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari",
+ "scenes": [
+  {
+   "narration": "<reverent> Daud dan Goliat. <pause> Kisah dari Satu Samuel, pasal tujuh belas.",
+   "on_screen_text": "",
+   "verse_ref": "",
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [
+    "sheep"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "right",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "x",
+   "on_screen_text": "Di Lembah Tarbantin, tentara Israel dan Filistin saling berhadapan dari dua bukit.",
+   "verse_ref": "1 Samuel 17:1-3",
+   "sky": "golden",
+   "terrain": "valley",
+   "elements": [
+    "army"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "x",
+   "on_screen_text": "Raksasa Goliat dari Gat menantang Israel setiap hari. Selama 40 hari, tak seorang pun berani.",
+   "verse_ref": "1 Samuel 17:4-16",
+   "highlight_words": [
+    "40"
+   ],
+   "sky": "fire",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [
+    {
+     "role": "villain",
+     "size": "giant",
+     "position": "center",
+     "props": [
+      "helmet",
+      "spear",
+      "shield"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "soldier",
+     "size": "small",
+     "position": "far_left",
+     "props": [
+      "spear"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "x",
+   "on_screen_text": "Lalu datanglah Daud, gembala muda dari Betlehem, membawa bekal untuk kakak-kakaknya.",
+   "verse_ref": "1 Samuel 17:12-20",
+   "sky": "day",
+   "terrain": "hills",
+   "elements": [
+    "sheep"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "large",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "x",
+   "on_screen_text": "Ia menolak baju zirah raja. Ia hanya memilih lima batu licin dari sungai.",
+   "verse_ref": "1 Samuel 17:38-40",
+   "highlight_words": [
+    "lima"
+   ],
+   "sky": "golden",
+   "terrain": "river",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "x",
+   "on_screen_text": "“Engkau datang dengan pedang dan tombak, tetapi aku datang dalam nama TUHAN.”",
+   "verse_ref": "parafrase 1 Samuel 17:45",
+   "highlight_words": [
+    "TUHAN"
+   ],
+   "sky": "dusk",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "far_left",
+     "props": [],
+     "pose": "raise_arm"
+    },
+    {
+     "role": "villain",
+     "size": "giant",
+     "position": "center_right",
+     "props": [
+      "helmet",
+      "spear",
+      "shield"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "x",
+   "on_screen_text": "Satu batu melesat... dan raksasa itu pun tumbang.",
+   "verse_ref": "1 Samuel 17:49",
+   "sky": "dusk",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "far_left",
+     "props": [],
+     "pose": "raise_arm"
+    },
+    {
+     "role": "villain",
+     "size": "giant",
+     "position": "center_right",
+     "props": [
+      "helmet",
+      "spear",
+      "shield"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "stone_throw",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "x",
+   "on_screen_text": "Masalahmu mungkin sebesar raksasa, tetapi Tuhanmu jauh lebih besar.",
+   "verse_ref": "",
+   "highlight_words": [
+    "Tuhanmu"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+name: Video Kisah Alkitab Harian
+
+on:
+  schedule:
+    # 12:15 UTC = 19:15 WIB. Video dibuat (~10 menit), lalu menunggu dan tayang tepat 20:00 WIB.
+    - cron: "15 12 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "check = cek semua kunci | dry-run = buat video tanpa posting | daily = buat & posting"
+        type: choice
+        options: [check, dry-run, daily]
+        default: dry-run
+      story_index:
+        description: "Opsional: nomor urut kisah (0 = kisah pertama di data/stories.json)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kisah-alkitab-harian
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+      META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+      META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      TTS_VOICE: ${{ vars.TTS_VOICE || 'Riko' }}
+      TTS_MODEL: ${{ vars.TTS_MODEL || 'gemini-3.8-flash-tts' }}
+      GEMINI_TEXT_MODEL: ${{ vars.GEMINI_TEXT_MODEL || 'gemini-flash-latest' }}
+      POST_TIME_WIB: ${{ vars.POST_TIME_WIB || '20:00' }}
+      PLATFORMS: ${{ vars.PLATFORMS || 'facebook,instagram,youtube' }}
+      YOUTUBE_PRIVACY: ${{ vars.YOUTUBE_PRIVACY || 'public' }}
+      GH_TOKEN: ${{ github.token }}
+      MODE: ${{ github.event.inputs.mode || 'daily' }}
+      STORY_INDEX: ${{ github.event.inputs.story_index || '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pasang ffmpeg & font
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+
+      - name: Pasang library Python
+        run: pip install -r requirements.txt
+
+      - name: Jalankan
+        run: |
+          case "$MODE" in
+            check)   python main.py --check ;;
+            dry-run) python main.py --dry-run --story-index "$STORY_INDEX" ;;
+            *)       python main.py --story-index "$STORY_INDEX" ;;
+          esac
+
+      - name: Simpan video & naskah (Artifacts)
+        if: always() && env.MODE != 'check'
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ github.run_id }}
+          path: output/
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Simpan progres kisah
+        if: success() && env.MODE == 'daily'
+        run: |
+          git config user.name "kisah-alkitab-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/progress.json
+          git diff --cached --quiet || git commit -m "Progres harian $(date -u +%F)"
+          git push

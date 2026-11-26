@@ -1,0 +1,74 @@
+{
+  "title": "Musa & Laut Merah",
+  "reference": "Keluaran 14",
+  "youtube_title": "Musa Membelah Laut Merah | Kisah Alkitab 1 Menit",
+  "caption": "Ketika jalan buntu, Tuhan membuka jalan di tengah laut. Kisah Musa dan Laut Merah dari Keluaran 14.",
+  "hashtags": ["#KisahAlkitab", "#Alkitab", "#Musa", "#LautMerah", "#RenunganHarian", "#Kristen"],
+  "cta": "Ikuti untuk kisah Alkitab setiap hari",
+  "scenes": [
+    {
+      "narration": "<reverent> Musa dan Laut Merah. <pause> Kisah dari Kitab Keluaran, pasal empat belas.",
+      "on_screen_text": "",
+      "verse_ref": "Keluaran 14",
+      "sky": "dawn", "terrain": "desert", "elements": ["palm_trees", "tents"],
+      "characters": [{"role": "elder", "size": "small", "position": "right", "props": ["staff"], "pose": "stand"}],
+      "action": "none", "camera": "zoom_in"
+    },
+    {
+      "narration": "Setelah bertahun-tahun diperbudak, <warm> bangsa Israel akhirnya keluar dari Mesir.",
+      "on_screen_text": "Setelah bertahun-tahun diperbudak, bangsa Israel akhirnya keluar dari Mesir.",
+      "verse_ref": "Keluaran 12:41", "highlight_words": ["keluar"],
+      "sky": "golden", "terrain": "desert", "elements": ["crowd", "camels"],
+      "characters": [{"role": "elder", "size": "medium", "position": "left", "props": ["staff"], "pose": "walk"}],
+      "action": "walk_in", "camera": "pan_right"
+    },
+    {
+      "narration": "Tetapi Firaun berubah pikiran. <serious> Ia mengejar mereka dengan kereta-kereta perangnya.",
+      "on_screen_text": "Firaun berubah pikiran dan mengejar mereka dengan kereta-kereta perangnya.",
+      "verse_ref": "Keluaran 14:5-9", "highlight_words": ["Firaun"],
+      "sky": "fire", "terrain": "desert", "elements": ["army"],
+      "characters": [{"role": "king", "size": "large", "position": "center", "props": ["crown", "sword"], "pose": "raise_arm"}],
+      "action": "none", "camera": "zoom_in"
+    },
+    {
+      "narration": "Di depan mereka laut. Di belakang mereka tentara. <pause> Bangsa itu sangat ketakutan.",
+      "on_screen_text": "Di depan laut, di belakang tentara. Bangsa itu sangat ketakutan.",
+      "verse_ref": "Keluaran 14:10",
+      "sky": "storm", "terrain": "sea", "elements": ["crowd"],
+      "characters": [{"role": "woman", "size": "medium", "position": "left", "pose": "pray"}, {"role": "child", "size": "medium", "position": "left", "pose": "stand"}],
+      "action": "none", "camera": "zoom_out"
+    },
+    {
+      "narration": "Musa berkata: <determined> Jangan takut! Berdirilah teguh dan lihatlah keselamatan dari TUHAN.",
+      "on_screen_text": "“Jangan takut! Berdirilah teguh dan lihatlah keselamatan dari TUHAN.”",
+      "verse_ref": "parafrase Keluaran 14:13", "highlight_words": ["TUHAN"],
+      "sky": "dusk", "terrain": "sea", "elements": [],
+      "characters": [{"role": "elder", "size": "large", "position": "center", "props": ["staff"], "pose": "raise_arm"}],
+      "action": "light_shine", "camera": "push_up"
+    },
+    {
+      "narration": "Musa mengulurkan tangannya, <slow> dan TUHAN membelah laut dengan angin timur yang kencang.",
+      "on_screen_text": "Musa mengulurkan tangannya, dan TUHAN membelah laut.",
+      "verse_ref": "Keluaran 14:21", "highlight_words": ["membelah"],
+      "sky": "night", "terrain": "sea", "elements": [],
+      "characters": [{"role": "elder", "size": "medium", "position": "center", "props": ["staff"], "pose": "raise_arm"}],
+      "action": "waves_part", "camera": "zoom_out"
+    },
+    {
+      "narration": "Bangsa Israel berjalan di tanah yang kering, <pause> di antara dua dinding air.",
+      "on_screen_text": "Mereka berjalan di tanah kering, di antara dua dinding air.",
+      "verse_ref": "Keluaran 14:22",
+      "sky": "dawn", "terrain": "sea", "elements": ["crowd"],
+      "characters": [{"role": "elder", "size": "small", "position": "center", "props": ["staff"], "pose": "walk"}],
+      "action": "waves_part", "camera": "push_up"
+    },
+    {
+      "narration": "Ketika jalan terlihat buntu, <hopeful> Tuhan sanggup membuka jalan. <warm> Ikuti untuk kisah berikutnya.",
+      "on_screen_text": "Ketika jalan terlihat buntu, Tuhan sanggup membuka jalan.",
+      "verse_ref": "", "highlight_words": ["Tuhan"],
+      "sky": "heaven", "terrain": "hills", "elements": ["rays"],
+      "characters": [{"role": "elder", "size": "small", "position": "center", "props": ["staff"], "pose": "raise_arm"}],
+      "action": "none", "camera": "zoom_out"
+    }
+  ]
+}
