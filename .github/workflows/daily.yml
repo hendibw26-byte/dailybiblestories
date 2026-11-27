@@ -15,6 +15,10 @@ on:
         description: "Untuk posting-video-jadi: nomor ID run dry-run (angka panjang di link run tersebut)"
         required: false
         default: ""
+      platform_ulang:
+        description: "Untuk posting-video-jadi: isi hanya kalau mau posting ULANG ke platform yang gagal, mis. facebook,instagram"
+        required: false
+        default: ""
       post_now:
         description: "Posting sekarang juga (tidak menunggu jam 20.00)"
         type: boolean
@@ -58,6 +62,7 @@ jobs:
       STORY_INDEX: ${{ github.event.inputs.story_index || '' }}
       RUN_ID: ${{ github.event.inputs.run_id || '' }}
       POST_NOW: ${{ github.event.inputs.post_now || 'false' }}
+      REPOST_PLATFORMS: ${{ github.event.inputs.platform_ulang || '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -99,7 +104,7 @@ jobs:
           if [ -n "$NUM" ]; then gh issue comment "$NUM" --repo "$GITHUB_REPOSITORY" --body "$(printf "$MSG")"; fi
 
       - name: Simpan progres kisah
-        if: success() && (env.MODE == 'daily' || env.MODE == 'posting-video-jadi')
+        if: always() && (env.MODE == 'daily' || env.MODE == 'posting-video-jadi')
         run: |
           git config user.name "kisah-alkitab-bot"
           git config user.email "actions@users.noreply.github.com"
