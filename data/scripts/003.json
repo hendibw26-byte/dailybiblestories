@@ -1,0 +1,223 @@
+{
+ "title": "Kain & Habel",
+ "reference": "Kejadian 4",
+ "youtube_title": "Kain & Habel | Kisah Alkitab 1 Menit",
+ "caption": "Amarah yang tidak dikuasai berakhir tragis. Allah memperingatkan, dan tetap memberi kesempatan.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#KainDanHabel",
+  "#Kejadian",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Kain dan Habel. <pause> Kisah dari Kitab Kejadian, pasal empat.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 4",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [
+    "sheep"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "right",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Kain adalah seorang petani, <warm> sedangkan adiknya, Habel, adalah gembala domba.",
+   "on_screen_text": "Kain seorang petani, sedangkan adiknya, Habel, gembala domba.",
+   "verse_ref": "Kejadian 4:2",
+   "highlight_words": [],
+   "sky": "day",
+   "terrain": "hills",
+   "elements": [
+    "sheep",
+    "trees"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Keduanya membawa persembahan. <slow> Allah berkenan pada persembahan Habel, yang diberikan dengan sepenuh hati.",
+   "on_screen_text": "Keduanya membawa persembahan, dan Allah berkenan pada persembahan Habel.",
+   "verse_ref": "Kejadian 4:3-5; Ibrani 11:4",
+   "highlight_words": [
+    "berkenan"
+   ],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [
+    "fire",
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "kneel"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Kain menjadi sangat marah. <serious> Allah memperingatkannya: dosa sedang mengintip di depan pintu, kuasailah itu.",
+   "on_screen_text": "Allah memperingatkan Kain: dosa mengintip di depan pintu, kuasailah itu.",
+   "verse_ref": "Kejadian 4:6-7",
+   "highlight_words": [
+    "kuasailah"
+   ],
+   "sky": "storm",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "large",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Tetapi Kain tidak mendengarkan. <tense> Di padang, ia menyerang adiknya, dan Habel pun mati.",
+   "on_screen_text": "Kain tidak mendengarkan. Di padang, ia menyerang adiknya.",
+   "verse_ref": "Kejadian 4:8",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [
+    {
+     "role": "villain",
+     "size": "large",
+     "position": "left",
+     "props": [],
+     "pose": "raise_arm"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Allah bertanya: di mana adikmu? <serious> Kain menjawab: apakah aku penjaga adikku?",
+   "on_screen_text": "“Di mana adikmu?” “Apakah aku penjaga adikku?”",
+   "verse_ref": "Kejadian 4:9",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "hills",
+   "elements": [
+    "moon"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Kain harus mengembara, <slow> namun Allah tetap memberinya tanda perlindungan supaya ia tidak dibunuh.",
+   "on_screen_text": "Kain mengembara, namun Allah tetap memberinya tanda perlindungan.",
+   "verse_ref": "Kejadian 4:12-15",
+   "highlight_words": [
+    "perlindungan."
+   ],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Kuasai amarahmu sebelum amarah menguasaimu. <hopeful> Allah selalu memberi kesempatan untuk berbalik. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Kuasai amarahmu sebelum amarah menguasaimu.",
+   "verse_ref": "",
+   "highlight_words": [
+    "Kuasai"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

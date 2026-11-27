@@ -1,0 +1,218 @@
+{
+ "title": "Panggilan Abraham",
+ "reference": "Kejadian 12",
+ "youtube_title": "Panggilan Abraham | Kisah Alkitab 1 Menit",
+ "caption": "Abram belum tahu ke mana ia pergi, tetapi ia percaya dan melangkah.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Abraham",
+  "#Iman",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Panggilan Abraham. <pause> Kisah dari Kitab Kejadian, pasal dua belas.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 12",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "camels"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Di kota Haran, <warm> Allah berbicara kepada Abram, seorang pria yang sudah lanjut usia.",
+   "on_screen_text": "Di Haran, Allah berbicara kepada Abram yang sudah lanjut usia.",
+   "verse_ref": "Kejadian 12:1,4",
+   "highlight_words": [
+    "Abram"
+   ],
+   "sky": "golden",
+   "terrain": "city",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Pergilah dari negerimu dan rumah bapamu, <serious> ke negeri yang akan Kutunjukkan kepadamu.",
+   "on_screen_text": "“Pergilah ke negeri yang akan Kutunjukkan kepadamu.”",
+   "verse_ref": "parafrase Kejadian 12:1",
+   "highlight_words": [
+    "Pergilah"
+   ],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Aku akan membuatmu menjadi bangsa yang besar, <hopeful> dan olehmu semua bangsa akan diberkati.",
+   "on_screen_text": "“Olehmu semua bangsa di bumi akan diberkati.”",
+   "verse_ref": "parafrase Kejadian 12:2-3",
+   "highlight_words": [
+    "diberkati."
+   ],
+   "sky": "night",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Abram tidak tahu ke mana ia pergi, <slow> tetapi ia percaya dan berangkat.",
+   "on_screen_text": "Abram tidak tahu ke mana ia pergi, tetapi ia percaya dan berangkat.",
+   "verse_ref": "Kejadian 12:4; Ibrani 11:8",
+   "highlight_words": [
+    "percaya"
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "camels"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Bersama Sarai istrinya dan Lot keponakannya, <warm> ia membawa ternak dan seluruh miliknya.",
+   "on_screen_text": "Bersama Sarai dan Lot, Abram membawa ternak dan seluruh miliknya.",
+   "verse_ref": "Kejadian 12:5",
+   "highlight_words": [],
+   "sky": "day",
+   "terrain": "desert",
+   "elements": [
+    "camels",
+    "sheep"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "walk"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "walk"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Setibanya di Kanaan, <reverent> Abram mendirikan mezbah dan menyembah Tuhan.",
+   "on_screen_text": "Di Kanaan, Abram mendirikan mezbah dan menyembah Tuhan.",
+   "verse_ref": "Kejadian 12:6-8",
+   "highlight_words": [
+    "menyembah"
+   ],
+   "sky": "dusk",
+   "terrain": "hills",
+   "elements": [
+    "fire"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Iman berarti melangkah walau belum melihat ujung jalan. <hopeful> Tuhan memimpin setiap langkah. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Iman berarti melangkah walau belum melihat ujung jalan.",
+   "verse_ref": "",
+   "highlight_words": [
+    "Iman"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

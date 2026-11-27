@@ -1,0 +1,187 @@
+{
+ "title": "Nuh & Bahtera",
+ "reference": "Kejadian 6-8",
+ "youtube_title": "Nuh & Bahtera | Kisah Alkitab 1 Menit",
+ "caption": "Di tengah dunia yang jahat, Nuh tetap setia, dan Allah tidak melupakannya.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Nuh",
+  "#BahteraNuh",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Nuh dan Bahtera. <pause> Kisah dari Kitab Kejadian, pasal enam sampai delapan.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 6-8",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [
+    "ark"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Bumi penuh dengan kejahatan, <serious> tetapi Nuh adalah orang benar yang hidup bergaul dengan Allah.",
+   "on_screen_text": "Bumi penuh kejahatan, tetapi Nuh hidup bergaul dengan Allah.",
+   "verse_ref": "Kejadian 6:5-9",
+   "highlight_words": [
+    "Nuh"
+   ],
+   "sky": "dusk",
+   "terrain": "city",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Allah menyuruh Nuh membangun bahtera besar, <warm> dan Nuh melakukan semua yang diperintahkan.",
+   "on_screen_text": "Allah menyuruh Nuh membangun bahtera, dan Nuh taat sepenuhnya.",
+   "verse_ref": "Kejadian 6:14-22",
+   "highlight_words": [
+    "taat"
+   ],
+   "sky": "day",
+   "terrain": "hills",
+   "elements": [
+    "ark"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "far_left",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Nuh masuk bersama keluarganya, <slow> dan sepasang dari setiap jenis binatang.",
+   "on_screen_text": "Nuh masuk bersama keluarganya dan sepasang dari setiap jenis binatang.",
+   "verse_ref": "Kejadian 7:1-9",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [
+    "ark",
+    "sheep",
+    "camels"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "small",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "walk"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Hujan turun empat puluh hari empat puluh malam. <tense> Air menutupi seluruh bumi.",
+   "on_screen_text": "Hujan turun 40 hari 40 malam. Air menutupi seluruh bumi.",
+   "verse_ref": "Kejadian 7:12-19",
+   "highlight_words": [
+    "40"
+   ],
+   "sky": "storm",
+   "terrain": "sea",
+   "elements": [
+    "ark"
+   ],
+   "characters": [],
+   "action": "rain_falls",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Lalu Allah mengingat Nuh. <pause> Air surut, dan burung merpati kembali membawa daun zaitun.",
+   "on_screen_text": "Allah mengingat Nuh. Air surut, dan merpati membawa daun zaitun.",
+   "verse_ref": "Kejadian 8:1-11",
+   "highlight_words": [
+    "mengingat"
+   ],
+   "sky": "dawn",
+   "terrain": "sea",
+   "elements": [
+    "ark"
+   ],
+   "characters": [],
+   "action": "dove_fly",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Nuh keluar dari bahtera, <reverent> mendirikan mezbah, dan bersyukur kepada Allah.",
+   "on_screen_text": "Nuh keluar dari bahtera, mendirikan mezbah, dan bersyukur kepada Allah.",
+   "verse_ref": "Kejadian 8:18-20",
+   "highlight_words": [
+    "bersyukur"
+   ],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [
+    "fire",
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Di tengah badai, Allah tidak melupakanmu. <hopeful> Tetaplah setia, Ia sedang bekerja. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Di tengah badai, Allah tidak melupakanmu. Tetaplah setia.",
+   "verse_ref": "",
+   "highlight_words": [
+    "setia."
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

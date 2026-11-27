@@ -1,0 +1,188 @@
+{
+ "title": "Pelangi Perjanjian",
+ "reference": "Kejadian 9",
+ "youtube_title": "Pelangi Perjanjian Allah | Kisah Alkitab 1 Menit",
+ "caption": "Setiap pelangi adalah pengingat bahwa Allah selalu menepati janji-Nya.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Pelangi",
+  "#JanjiAllah",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Pelangi Perjanjian. <pause> Kisah dari Kitab Kejadian, pasal sembilan.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 9",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [
+    "ark",
+    "rays"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Setelah air bah surut, <warm> Nuh dan keluarganya memulai hidup baru di bumi yang bersih.",
+   "on_screen_text": "Setelah air bah surut, Nuh dan keluarganya memulai hidup baru.",
+   "verse_ref": "Kejadian 8:18-19",
+   "highlight_words": [],
+   "sky": "day",
+   "terrain": "hills",
+   "elements": [
+    "ark",
+    "sheep"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Allah memberkati mereka: <warm> beranak cuculah dan penuhilah bumi.",
+   "on_screen_text": "Allah memberkati mereka: beranak cuculah dan penuhilah bumi.",
+   "verse_ref": "Kejadian 9:1",
+   "highlight_words": [
+    "memberkati"
+   ],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Lalu Allah membuat perjanjian dengan Nuh dan semua makhluk hidup. <serious> Perjanjian untuk selamanya.",
+   "on_screen_text": "Allah membuat perjanjian dengan Nuh dan semua makhluk hidup, untuk selamanya.",
+   "verse_ref": "Kejadian 9:8-10",
+   "highlight_words": [
+    "perjanjian"
+   ],
+   "sky": "dusk",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Tidak akan ada lagi air bah yang memusnahkan seluruh bumi.",
+   "on_screen_text": "Tidak akan ada lagi air bah yang memusnahkan seluruh bumi.",
+   "verse_ref": "Kejadian 9:11",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "sea",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Sebagai tandanya, <slow> Allah menaruh busur-Nya di awan: sebuah pelangi yang indah.",
+   "on_screen_text": "Sebagai tandanya, Allah menaruh busur-Nya di awan: pelangi.",
+   "verse_ref": "Kejadian 9:12-13",
+   "highlight_words": [
+    "pelangi."
+   ],
+   "sky": "day",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Setiap kali pelangi muncul, <reverent> Allah mengingat janji-Nya kepada bumi dan semua makhluk.",
+   "on_screen_text": "Setiap kali pelangi muncul, Allah mengingat janji-Nya.",
+   "verse_ref": "Kejadian 9:14-16",
+   "highlight_words": [
+    "janji-Nya."
+   ],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [
+    "sheep",
+    "rays"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Allah selalu menepati janji-Nya. <hopeful> Setiap pelangi adalah pengingat kesetiaan-Nya. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Allah selalu menepati janji-Nya. Setiap pelangi adalah pengingat kesetiaan-Nya.",
+   "verse_ref": "",
+   "highlight_words": [
+    "menepati"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

@@ -1,0 +1,239 @@
+{
+ "title": "Adam & Hawa",
+ "reference": "Kejadian 2-3",
+ "youtube_title": "Adam & Hawa di Taman Eden | Kisah Alkitab 1 Menit",
+ "caption": "Satu larangan, satu bujukan, dan kasih Allah yang tetap mencari manusia.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#AdamDanHawa",
+  "#TamanEden",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Adam dan Hawa. <pause> Kisah dari Kitab Kejadian, pasal dua dan tiga.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 2-3",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "garden",
+   "elements": [
+    "trees"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "woman",
+     "size": "small",
+     "position": "center_right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Allah menempatkan Adam dan Hawa di Taman Eden, <warm> tempat yang indah dan penuh buah.",
+   "on_screen_text": "Allah menempatkan Adam dan Hawa di Taman Eden yang indah.",
+   "verse_ref": "Kejadian 2:8-15",
+   "highlight_words": [
+    "Eden"
+   ],
+   "sky": "day",
+   "terrain": "garden",
+   "elements": [
+    "trees"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Hanya ada satu larangan: <serious> jangan makan buah dari pohon pengetahuan tentang yang baik dan jahat.",
+   "on_screen_text": "Hanya satu larangan: jangan makan buah dari pohon pengetahuan baik dan jahat.",
+   "verse_ref": "Kejadian 2:16-17",
+   "highlight_words": [
+    "satu"
+   ],
+   "sky": "golden",
+   "terrain": "garden",
+   "elements": [
+    "trees"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Ular yang licik membujuk Hawa: <whispers> kamu tidak akan mati, kamu akan menjadi seperti Allah.",
+   "on_screen_text": "Ular membujuk Hawa: kamu tidak akan mati, kamu akan seperti Allah.",
+   "verse_ref": "Kejadian 3:1-5",
+   "highlight_words": [
+    "Ular"
+   ],
+   "sky": "dusk",
+   "terrain": "garden",
+   "elements": [
+    "trees"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Hawa memakan buah itu, <slow> lalu memberikannya juga kepada Adam, dan ia pun makan.",
+   "on_screen_text": "Hawa memakan buah itu, lalu memberikannya kepada Adam.",
+   "verse_ref": "Kejadian 3:6",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "garden",
+   "elements": [
+    "trees"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Mata mereka terbuka. <tense> Mereka merasa malu, lalu bersembunyi dari Allah di antara pepohonan.",
+   "on_screen_text": "Mereka merasa malu dan bersembunyi dari Allah.",
+   "verse_ref": "Kejadian 3:7-8",
+   "highlight_words": [
+    "bersembunyi"
+   ],
+   "sky": "night",
+   "terrain": "garden",
+   "elements": [
+    "trees"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "kneel"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Mereka harus keluar dari taman. <warm> Namun Allah tetap memberi mereka pakaian dan janji pengharapan.",
+   "on_screen_text": "Mereka keluar dari taman, namun Allah tetap memberi pakaian dan janji pengharapan.",
+   "verse_ref": "Kejadian 3:15-24",
+   "highlight_words": [
+    "pengharapan."
+   ],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "walk"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Dosa membuat kita bersembunyi, <hopeful> tetapi kasih Allah selalu mencari kita kembali. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Dosa membuat kita bersembunyi, tetapi kasih Allah selalu mencari kita kembali.",
+   "verse_ref": "",
+   "highlight_words": [
+    "kasih"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

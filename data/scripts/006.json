@@ -1,0 +1,174 @@
+{
+ "title": "Menara Babel",
+ "reference": "Kejadian 11",
+ "youtube_title": "Menara Babel | Kisah Alkitab 1 Menit",
+ "caption": "Manusia ingin membangun nama sendiri sampai ke langit. Allah punya rencana yang berbeda.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#MenaraBabel",
+  "#Kejadian",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Menara Babel. <pause> Kisah dari Kitab Kejadian, pasal sebelas.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 11",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "city_walls"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Dahulu seluruh bumi memakai satu bahasa, <warm> dan manusia menetap di tanah Sinear.",
+   "on_screen_text": "Dahulu seluruh bumi memakai satu bahasa.",
+   "verse_ref": "Kejadian 11:1-2",
+   "highlight_words": [
+    "satu"
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "crowd",
+    "tents"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Mereka berkata: mari bangun menara sampai ke langit, <serious> supaya nama kita terkenal.",
+   "on_screen_text": "“Mari bangun menara sampai ke langit, supaya nama kita terkenal.”",
+   "verse_ref": "Kejadian 11:4",
+   "highlight_words": [
+    "nama"
+   ],
+   "sky": "day",
+   "terrain": "city",
+   "elements": [
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "king",
+     "size": "large",
+     "position": "center",
+     "props": [
+      "crown"
+     ],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Mereka membakar batu bata <slow> dan menyusunnya makin tinggi, mengandalkan kekuatan sendiri.",
+   "on_screen_text": "Mereka membakar batu bata dan menyusunnya makin tinggi.",
+   "verse_ref": "Kejadian 11:3",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "city",
+   "elements": [
+    "fire",
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Allah turun untuk melihat kota dan menara yang dibangun manusia itu.",
+   "on_screen_text": "Allah turun untuk melihat kota dan menara itu.",
+   "verse_ref": "Kejadian 11:5",
+   "highlight_words": [],
+   "sky": "storm",
+   "terrain": "city",
+   "elements": [],
+   "characters": [],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Lalu Allah mengacaukan bahasa mereka, <tense> sehingga mereka tidak lagi saling mengerti.",
+   "on_screen_text": "Allah mengacaukan bahasa mereka, sehingga mereka tidak saling mengerti.",
+   "verse_ref": "Kejadian 11:7",
+   "highlight_words": [
+    "mengacaukan"
+   ],
+   "sky": "storm",
+   "terrain": "city",
+   "elements": [
+    "crowd"
+   ],
+   "characters": [],
+   "action": "lightning_strike",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Pembangunan terhenti. <slow> Manusia tersebar ke seluruh bumi, dan kota itu disebut Babel.",
+   "on_screen_text": "Pembangunan terhenti. Manusia tersebar, dan kota itu disebut Babel.",
+   "verse_ref": "Kejadian 11:8-9",
+   "highlight_words": [
+    "Babel."
+   ],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Hidup yang dibangun untuk kemuliaan diri akan runtuh. <hopeful> Bangunlah untuk kemuliaan Tuhan. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Hidup yang dibangun untuk kemuliaan diri akan runtuh. Bangunlah untuk kemuliaan Tuhan.",
+   "verse_ref": "",
+   "highlight_words": [
+    "Tuhan."
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

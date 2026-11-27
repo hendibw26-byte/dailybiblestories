@@ -1,0 +1,160 @@
+{
+ "title": "Penciptaan Dunia",
+ "reference": "Kejadian 1-2",
+ "youtube_title": "Penciptaan Dunia | Kisah Alkitab 1 Menit",
+ "caption": "Dari gelap dan kosong, Allah menciptakan segala sesuatu dan melihatnya sungguh amat baik.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Penciptaan",
+  "#Kejadian",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Penciptaan Dunia. <pause> Kisah dari Kitab Kejadian, pasal satu dan dua.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 1-2",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "hills",
+   "elements": [
+    "moon"
+   ],
+   "characters": [],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Pada mulanya, bumi kosong dan gelap. <slow> Lalu Allah berfirman: jadilah terang. Dan terang itu jadi.",
+   "on_screen_text": "Pada mulanya bumi kosong dan gelap. Allah berfirman: jadilah terang!",
+   "verse_ref": "Kejadian 1:1-3",
+   "highlight_words": [
+    "terang!"
+   ],
+   "sky": "night",
+   "terrain": "sea",
+   "elements": [],
+   "characters": [],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Allah memisahkan langit dan air, <warm> lalu memunculkan daratan dengan pohon dan tanaman.",
+   "on_screen_text": "Allah memisahkan langit dan air, lalu memunculkan daratan yang hijau.",
+   "verse_ref": "Kejadian 1:6-12",
+   "highlight_words": [
+    "daratan"
+   ],
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [
+    "trees"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Ia menaruh matahari, bulan, dan bintang di langit, untuk menandai siang, malam, dan musim.",
+   "on_screen_text": "Matahari, bulan, dan bintang ditaruh di langit untuk siang, malam, dan musim.",
+   "verse_ref": "Kejadian 1:14-19",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "hills",
+   "elements": [
+    "moon"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Lalu laut dipenuhi ikan, udara dipenuhi burung, <warm> dan daratan dipenuhi segala jenis binatang.",
+   "on_screen_text": "Laut, udara, dan daratan dipenuhi segala jenis makhluk hidup.",
+   "verse_ref": "Kejadian 1:20-25",
+   "highlight_words": [],
+   "sky": "day",
+   "terrain": "river",
+   "elements": [
+    "sheep",
+    "camels"
+   ],
+   "characters": [],
+   "action": "dove_fly",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Pada hari keenam, <reverent> Allah menciptakan manusia menurut gambar-Nya, laki-laki dan perempuan.",
+   "on_screen_text": "Pada hari keenam, Allah menciptakan manusia menurut gambar-Nya.",
+   "verse_ref": "Kejadian 1:26-27",
+   "highlight_words": [
+    "gambar-Nya."
+   ],
+   "sky": "golden",
+   "terrain": "garden",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Allah melihat semuanya sungguh amat baik. <pause> Pada hari ketujuh, Ia berhenti dan memberkatinya.",
+   "on_screen_text": "Semuanya sungguh amat baik. Pada hari ketujuh, Allah berhenti dan memberkatinya.",
+   "verse_ref": "Kejadian 1:31-2:3",
+   "highlight_words": [
+    "baik."
+   ],
+   "sky": "dusk",
+   "terrain": "garden",
+   "elements": [
+    "rays"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Kamu bukan kebetulan. <hopeful> Kamu diciptakan dengan sengaja, dan sangat baik. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Kamu bukan kebetulan. Kamu diciptakan dengan sengaja, dan sangat baik.",
+   "verse_ref": "",
+   "highlight_words": [
+    "sengaja,"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}
