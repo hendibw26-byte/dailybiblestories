@@ -44,6 +44,8 @@ def build_texts(script):
 # ------------------------------------------------------------------ timing
 def wait_until_post_time():
     """Sleep until POST_TIME_WIB today (default 20:00). Returns immediately if it has passed."""
+    if os.environ.get("POST_NOW", "").lower() in ("1", "true", "yes"):
+        return
     hh, mm = os.environ.get("POST_TIME_WIB", "20:00").split(":")
     now = dt.datetime.now(dt.timezone.utc)
     target = now.replace(hour=(int(hh) - 7) % 24, minute=int(mm), second=0, microsecond=0)

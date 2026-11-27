@@ -65,6 +65,9 @@ def run(dry_run=False, mock=False, story_index=None, mock_audio_dir=None):
     idx = st["next_index"] if story_index is None else int(story_index)
     story = stories[idx % len(stories)]
     print(f"📖 Kisah #{idx + 1}: {story['title']} ({story['reference']})")
+    if not dry_run and not mock and any(h.get("date") == today for h in st["history"]):
+        print(f"✅ Hari ini ({today}) sudah ada video yang diposting. Dilewati supaya tidak dobel.")
+        return None
     key = os.environ.get("GEMINI_API_KEY", "")
     result = None
     for attempt in range(3):
@@ -119,6 +122,35 @@ def run(dry_run=False, mock=False, story_index=None, mock_audio_dir=None):
     return report
 
 
+def post_existing(src_dir):
+    """Publish a video that an earlier run (e.g. a dry-run) already made: no new script, no TTS quota used."""
+    import glob, publish, script_gen
+    today = dt.datetime.now(dt.timezone(dt.timedelta(hours=7))).strftime("%Y-%m-%d")
+    st = load_state()
+    if any(h.get("date") == today for h in st["history"]):
+        print(f"✅ Hari ini ({today}) sudah ada video yang diposting. Dilewati.")
+        return None
+    vids = sorted(glob.glob(os.path.join(src_dir, "**", "*.mp4"), recursive=True))
+    scripts = sorted(glob.glob(os.path.join(src_dir, "**", "script.json"), recursive=True))
+    if not vids or not scripts:
+        raise RuntimeError(f"Video atau script.json tidak ditemukan di hasil run tersebut ({src_dir}).")
+    video, script = vids[-1], script_gen.normalize(json.load(open(scripts[-1])))
+    print(f"🎬 Memakai video yang sudah jadi: {os.path.basename(video)} ({script['title']})")
+    res = publish.publish_all(script, video, f"kisah-{today}")
+    print("📤 Hasil posting:", json.dumps(res, ensure_ascii=False, indent=2))
+    import subprocess
+    d = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", video]))
+    publish.post_report(publish.build_report(script, res, today, d))
+    st["next_index"] = st["next_index"] + 1
+    st["history"].append({"date": today, "title": script["title"], "reference": script["reference"]})
+    st["history"] = st["history"][-120:]
+    save_state(st)
+    errors = [p for p, r in res.items() if isinstance(r, str) and r.startswith("ERROR")]
+    if errors:
+        raise RuntimeError(f"Posting gagal di: {', '.join(errors)}")
+    return res
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
@@ -126,7 +158,11 @@ if __name__ == "__main__":
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--story-index", default=None)
     ap.add_argument("--mock-audio-dir", default=None)
+    ap.add_argument("--from-dir", default=None)
     a = ap.parse_args()
+    if a.from_dir:
+        post_existing(a.from_dir)
+        sys.exit(0)
     if a.check:
         sys.exit(0 if check() else 1)
     dry = a.dry_run or os.environ.get("DRY_RUN", "").lower() in ("1", "true", "yes")
