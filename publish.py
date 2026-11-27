@@ -123,7 +123,37 @@ def _ig_from_url(ig, url, text, token):
     return {"container": c["id"], **_ig_wait_and_publish(ig, c["id"], token)}
 
 
+def _ig_copy(video):
+    """Re-encode to Instagram's safest Reels profile: H.264 High 4.0, 30 fps constant, ~5 Mbps, AAC 48 kHz."""
+    out = video.replace(".mp4", "_ig.mp4")
+    if os.path.exists(out):
+        return out
+    try:
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", video, "-c:v", "libx264", "-profile:v", "high", "-level", "4.0",
+                        "-pix_fmt", "yuv420p", "-r", "30", "-b:v", "5M", "-maxrate", "6M", "-bufsize", "10M", "-g", "60",
+                        "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "128k", "-movflags", "+faststart", out], check=True)
+        return out
+    except Exception as e:
+        print("   ⚠️ Gagal membuat salinan khusus Instagram, memakai video asli:", e, flush=True)
+        return video
+
+
 def instagram_reel(video, text, fb_video_id=None):
+    """Tries up to 3 rounds (Instagram's 'Media upload has failed' errors are often temporary)."""
+    video = _ig_copy(video)
+    last = None
+    for rnd in range(3):
+        try:
+            return _instagram_once(video, text, fb_video_id)
+        except Exception as e:
+            last = e
+            if rnd < 2:
+                print(f"   ⏳ Instagram gagal (percobaan {rnd + 1}/3), mencoba lagi 3 menit lagi…", flush=True)
+                time.sleep(180)
+    raise last
+
+
+def _instagram_once(video, text, fb_video_id=None):
     """Three ways, in order: direct upload with the Page token, with the User token (if saved),
     then letting Instagram fetch the copy already on the Facebook Page."""
     ig = instagram_user_id()
