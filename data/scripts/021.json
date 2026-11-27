@@ -1,0 +1,205 @@
+{
+ "title": "Yusuf & Mimpi Firaun",
+ "reference": "Kejadian 41",
+ "youtube_title": "Yusuf & Mimpi Firaun | Kisah Alkitab 1 Menit",
+ "caption": "Dari penjara ke istana dalam satu hari. Yusuf menafsirkan mimpi Firaun.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Yusuf",
+  "#Firaun",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Yusuf dan Mimpi Firaun. <pause> Kisah dari Kitab Kejadian, pasal empat puluh satu.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 41",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "city",
+   "elements": [
+    "temple"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Firaun bermimpi: <slow> tujuh sapi gemuk dimakan oleh tujuh sapi kurus.",
+   "on_screen_text": "Firaun bermimpi: tujuh sapi gemuk dimakan oleh tujuh sapi kurus.",
+   "verse_ref": "Kejadian 41:1-4",
+   "highlight_words": [
+    "tujuh"
+   ],
+   "sky": "night",
+   "terrain": "river",
+   "elements": [
+    "moon"
+   ],
+   "characters": [
+    {
+     "role": "king",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "crown"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Tidak seorang pun di Mesir dapat mengartikannya. <serious> Barulah juru minuman teringat akan Yusuf.",
+   "on_screen_text": "Tidak seorang pun di Mesir dapat mengartikannya. Barulah juru minuman teringat akan Yusuf.",
+   "verse_ref": "Kejadian 41:8-13",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "interior",
+   "elements": [],
+   "characters": [
+    {
+     "role": "king",
+     "size": "large",
+     "position": "left",
+     "props": [
+      "crown"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Yusuf berkata: <reverent> bukan aku, tetapi Allah yang akan memberi jawaban kepada Firaun.",
+   "on_screen_text": "Yusuf berkata: bukan aku, tetapi Allah yang akan memberi jawaban kepada Firaun.",
+   "verse_ref": "parafrase Kejadian 41:16",
+   "highlight_words": [
+    "Allah"
+   ],
+   "sky": "golden",
+   "terrain": "interior",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "king",
+     "size": "large",
+     "position": "right",
+     "props": [
+      "crown"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Akan datang tujuh tahun kelimpahan, <tense> lalu tujuh tahun kelaparan yang hebat.",
+   "on_screen_text": "Tujuh tahun kelimpahan, lalu tujuh tahun kelaparan yang hebat.",
+   "verse_ref": "Kejadian 41:29-30",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Yusuf menyarankan agar gandum disimpan <warm> selama tahun-tahun kelimpahan.",
+   "on_screen_text": "Yusuf menyarankan agar gandum disimpan selama tahun-tahun kelimpahan.",
+   "verse_ref": "Kejadian 41:34-36",
+   "highlight_words": [],
+   "sky": "day",
+   "terrain": "city",
+   "elements": [
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Firaun mengangkat Yusuf menjadi penguasa atas seluruh Mesir, <hopeful> kedua setelah raja sendiri.",
+   "on_screen_text": "Firaun mengangkat Yusuf menjadi penguasa atas seluruh Mesir, kedua setelah raja sendiri.",
+   "verse_ref": "Kejadian 41:39-43",
+   "highlight_words": [
+    "penguasa"
+   ],
+   "sky": "golden",
+   "terrain": "city",
+   "elements": [
+    "temple",
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "crown"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Waktu Tuhan tidak pernah terlambat. <hopeful> Ia bisa mengangkatmu dari tempat terendah. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Waktu Tuhan tidak pernah terlambat.",
+   "verse_ref": "",
+   "highlight_words": [
+    "terlambat."
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

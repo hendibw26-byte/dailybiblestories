@@ -1,0 +1,203 @@
+{
+ "title": "Manna dari Surga",
+ "reference": "Keluaran 16",
+ "youtube_title": "Manna dari Surga | Kisah Alkitab 1 Menit",
+ "caption": "Setiap pagi Tuhan menyediakan roti dari langit, cukup untuk hari itu.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Manna",
+  "#Keluaran",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Manna dari Surga. <pause> Kisah dari Kitab Keluaran, pasal enam belas.",
+   "on_screen_text": "",
+   "verse_ref": "Keluaran 16",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Di padang gurun, bangsa Israel kelaparan <serious> dan bersungut-sungut kepada Musa dan Harun.",
+   "on_screen_text": "Di padang gurun, bangsa Israel kelaparan dan bersungut-sungut kepada Musa dan Harun.",
+   "verse_ref": "Keluaran 16:2-3",
+   "highlight_words": [
+    "bersungut-sungut"
+   ],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Tuhan berfirman: <warm> Aku akan menurunkan roti dari langit bagimu.",
+   "on_screen_text": "Tuhan berfirman: Aku akan menurunkan roti dari langit bagimu.",
+   "verse_ref": "parafrase Keluaran 16:4",
+   "highlight_words": [
+    "roti"
+   ],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Pagi harinya, tanah tertutup butiran halus seperti embun beku. <slow> Mereka bertanya: apakah ini?",
+   "on_screen_text": "Pagi harinya, tanah tertutup butiran halus seperti embun beku. Mereka bertanya: apakah ini?",
+   "verse_ref": "Keluaran 16:13-15",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "kneel"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Itulah manna, <warm> roti dari Tuhan. Rasanya seperti kue madu.",
+   "on_screen_text": "Itulah manna, roti dari Tuhan. Rasanya seperti kue madu.",
+   "verse_ref": "Keluaran 16:15, 31",
+   "highlight_words": [
+    "manna,"
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "child",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Setiap orang memungut secukupnya untuk hari itu. <serious> Yang disimpan sampai besok menjadi busuk.",
+   "on_screen_text": "Setiap orang memungut secukupnya untuk hari itu. Yang disimpan sampai besok menjadi busuk.",
+   "verse_ref": "Keluaran 16:16-20",
+   "highlight_words": [
+    "secukupnya"
+   ],
+   "sky": "day",
+   "terrain": "desert",
+   "elements": [
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Selama empat puluh tahun, <hopeful> Tuhan memberi mereka makan setiap hari.",
+   "on_screen_text": "Selama 40 tahun, Tuhan memberi mereka makan setiap hari.",
+   "verse_ref": "Keluaran 16:35",
+   "highlight_words": [
+    "40"
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "rays"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Tuhan memberi apa yang kita perlukan untuk hari ini. <hopeful> Percayakan hari esok kepada-Nya. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Tuhan memberi apa yang kita perlukan untuk hari ini.",
+   "verse_ref": "",
+   "highlight_words": [
+    "hari"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

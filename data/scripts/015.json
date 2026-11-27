@@ -1,0 +1,228 @@
+{
+ "title": "Ribka di Tepi Sumur",
+ "reference": "Kejadian 24",
+ "youtube_title": "Ribka di Tepi Sumur | Kisah Alkitab 1 Menit",
+ "caption": "Sebuah doa sederhana di tepi sumur, dan Tuhan menjawab tepat waktu.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Ribka",
+  "#Doa",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Ribka di Tepi Sumur. <pause> Kisah dari Kitab Kejadian, pasal dua puluh empat.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 24",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "well",
+    "camels"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Abraham mengutus hambanya <warm> untuk mencarikan istri bagi Ishak di negeri asalnya.",
+   "on_screen_text": "Abraham mengutus hambanya untuk mencarikan istri bagi Ishak di negeri asalnya.",
+   "verse_ref": "Kejadian 24:1-4",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "camels",
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_right",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Di tepi sebuah sumur, <reverent> hamba itu berdoa memohon petunjuk Tuhan.",
+   "on_screen_text": "Di tepi sebuah sumur, hamba itu berdoa memohon petunjuk Tuhan.",
+   "verse_ref": "Kejadian 24:11-12",
+   "highlight_words": [
+    "berdoa"
+   ],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "well",
+    "camels"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "pray"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Gadis yang menawarkan minum untukku dan untuk unta-untaku, <hopeful> biarlah dialah yang Kaupilih.",
+   "on_screen_text": "Gadis yang menawarkan minum untukku dan untuk unta-untaku, biarlah dialah yang Kaupilih.",
+   "verse_ref": "parafrase Kejadian 24:14",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "well",
+    "camels"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Belum selesai ia berdoa, <warm> Ribka datang membawa buyung, lalu memberi minum dia dan unta-untanya.",
+   "on_screen_text": "Belum selesai ia berdoa, Ribka datang membawa buyung, lalu memberi minum dia dan unta-untanya.",
+   "verse_ref": "Kejadian 24:15-20",
+   "highlight_words": [
+    "Ribka"
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "well",
+    "camels"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Hamba itu sujud dan bersyukur, <reverent> karena Tuhan telah menuntun perjalanannya.",
+   "on_screen_text": "Hamba itu sujud dan bersyukur, karena Tuhan telah menuntun perjalanannya.",
+   "verse_ref": "Kejadian 24:26-27",
+   "highlight_words": [
+    "menuntun"
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "well",
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Ribka berkata: <warm> aku mau pergi. Ia menjadi istri Ishak, dan Ishak mengasihinya.",
+   "on_screen_text": "Ribka berkata: aku mau pergi. Ia menjadi istri Ishak, dan Ishak mengasihinya.",
+   "verse_ref": "Kejadian 24:58, 67",
+   "highlight_words": [
+    "mengasihinya."
+   ],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "camels",
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Libatkan Tuhan dalam setiap keputusan. <hopeful> Ia sanggup menuntun langkah yang kecil sekalipun. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Libatkan Tuhan dalam setiap keputusan. Ia sanggup menuntun langkahmu.",
+   "verse_ref": "",
+   "highlight_words": [
+    "menuntun"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

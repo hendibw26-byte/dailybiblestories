@@ -1,0 +1,211 @@
+{
+ "title": "Paskah Pertama",
+ "reference": "Keluaran 12",
+ "youtube_title": "Paskah Pertama | Kisah Alkitab 1 Menit",
+ "caption": "Darah anak domba di ambang pintu, dan malam ketika Tuhan melewati rumah umat-Nya.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Paskah",
+  "#Keluaran",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Paskah Pertama. <pause> Kisah dari Kitab Keluaran, pasal dua belas.",
+   "on_screen_text": "",
+   "verse_ref": "Keluaran 12",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "city",
+   "elements": [
+    "moon"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Tuhan memberi perintah: <serious> setiap keluarga Israel harus mengambil seekor anak domba yang tidak bercela.",
+   "on_screen_text": "Tuhan memberi perintah: setiap keluarga Israel harus mengambil seekor anak domba yang tidak bercela.",
+   "verse_ref": "Keluaran 12:3-5",
+   "highlight_words": [
+    "anak"
+   ],
+   "sky": "dusk",
+   "terrain": "hills",
+   "elements": [
+    "tents",
+    "sheep"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Darahnya dioleskan pada ambang dan tiang pintu rumah mereka.",
+   "on_screen_text": "Darahnya dioleskan pada ambang dan tiang pintu rumah mereka.",
+   "verse_ref": "Keluaran 12:7",
+   "highlight_words": [
+    "Darahnya"
+   ],
+   "sky": "night",
+   "terrain": "interior",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Mereka makan dengan tergesa-gesa, <slow> dengan roti tidak beragi, siap untuk berangkat.",
+   "on_screen_text": "Mereka makan dengan tergesa-gesa, dengan roti tidak beragi, siap untuk berangkat.",
+   "verse_ref": "Keluaran 12:8-11",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "interior",
+   "elements": [
+    "fire"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "kneel"
+    },
+    {
+     "role": "child",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Tuhan berfirman: <reverent> apabila Aku melihat darah itu, Aku akan melewati kamu.",
+   "on_screen_text": "Tuhan berfirman: apabila Aku melihat darah itu, Aku akan melewati kamu.",
+   "verse_ref": "parafrase Keluaran 12:13",
+   "highlight_words": [
+    "melewati"
+   ],
+   "sky": "night",
+   "terrain": "city",
+   "elements": [
+    "moon",
+    "rays"
+   ],
+   "characters": [],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Malam itu Mesir berduka. <tense> Firaun akhirnya berkata: pergilah, tinggalkan negeriku!",
+   "on_screen_text": "Malam itu Mesir berduka. Firaun akhirnya berkata: pergilah, tinggalkan negeriku!",
+   "verse_ref": "Keluaran 12:29-31",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "city",
+   "elements": [
+    "temple"
+   ],
+   "characters": [
+    {
+     "role": "king",
+     "size": "large",
+     "position": "center",
+     "props": [
+      "crown"
+     ],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Bangsa Israel keluar dari Mesir, <hopeful> dan malam itu diperingati sebagai Paskah setiap tahun.",
+   "on_screen_text": "Bangsa Israel keluar dari Mesir, dan malam itu diperingati sebagai Paskah setiap tahun.",
+   "verse_ref": "Keluaran 12:41-42",
+   "highlight_words": [
+    "Paskah"
+   ],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "crowd",
+    "camels"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Keselamatan datang dari Tuhan. <hopeful> Ia melindungi mereka yang berlindung kepada-Nya. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Keselamatan datang dari Tuhan. Ia melindungi mereka yang berlindung kepada-Nya.",
+   "verse_ref": "",
+   "highlight_words": [
+    "Keselamatan"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

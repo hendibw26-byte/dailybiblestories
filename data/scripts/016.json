@@ -1,0 +1,216 @@
+{
+ "title": "Esau & Yakub",
+ "reference": "Kejadian 25-27",
+ "youtube_title": "Esau & Yakub | Kisah Alkitab 1 Menit",
+ "caption": "Hak kesulungan ditukar semangkuk sup, dan sebuah berkat direbut dengan tipu daya.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Yakub",
+  "#Esau",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Esau dan Yakub. <pause> Kisah dari Kitab Kejadian, pasal dua puluh lima sampai dua puluh tujuh.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 25-27",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [
+    "tents"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Ishak dan Ribka mempunyai anak kembar. <warm> Esau seorang pemburu, Yakub suka tinggal di kemah.",
+   "on_screen_text": "Ishak dan Ribka mempunyai anak kembar. Esau seorang pemburu, Yakub suka tinggal di kemah.",
+   "verse_ref": "Kejadian 25:24-27",
+   "highlight_words": [
+    "kembar."
+   ],
+   "sky": "day",
+   "terrain": "hills",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "spear"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Suatu hari Esau pulang kelaparan. <slow> Yakub berkata: juallah dahulu hak kesulunganmu kepadaku.",
+   "on_screen_text": "Suatu hari Esau pulang kelaparan. Yakub berkata: juallah dahulu hak kesulunganmu kepadaku.",
+   "verse_ref": "Kejadian 25:29-31",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "fire"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "kneel"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Demi semangkuk sup kacang merah, <serious> Esau menjual hak kesulungannya.",
+   "on_screen_text": "Demi semangkuk sup kacang merah, Esau menjual hak kesulungannya.",
+   "verse_ref": "Kejadian 25:33-34",
+   "highlight_words": [
+    "menjual"
+   ],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [
+    "fire"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Bertahun-tahun kemudian, Ishak sudah tua dan matanya kabur. <tense> Ia hendak memberkati Esau.",
+   "on_screen_text": "Bertahun-tahun kemudian, Ishak sudah tua dan matanya kabur. Ia hendak memberkati Esau.",
+   "verse_ref": "Kejadian 27:1-4",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "interior",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Dengan bantuan Ribka, <whispers> Yakub menyamar sebagai Esau dan menerima berkat itu.",
+   "on_screen_text": "Dengan bantuan Ribka, Yakub menyamar sebagai Esau dan menerima berkat itu.",
+   "verse_ref": "Kejadian 27:5-29",
+   "highlight_words": [
+    "menyamar"
+   ],
+   "sky": "night",
+   "terrain": "interior",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Esau sangat marah. <tense> Yakub pun harus melarikan diri jauh dari rumah.",
+   "on_screen_text": "Esau sangat marah. Yakub pun harus melarikan diri jauh dari rumah.",
+   "verse_ref": "Kejadian 27:41-43",
+   "highlight_words": [],
+   "sky": "storm",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Jangan tukar hal yang berharga dengan kepuasan sesaat. <hopeful> Hargai berkat Tuhan dalam hidupmu. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Jangan tukar hal yang berharga dengan kepuasan sesaat.",
+   "verse_ref": "",
+   "highlight_words": [
+    "berharga"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

@@ -1,0 +1,209 @@
+{
+ "title": "Kelahiran Ishak",
+ "reference": "Kejadian 21",
+ "youtube_title": "Kelahiran Ishak | Kisah Alkitab 1 Menit",
+ "caption": "Tuhan menepati janji-Nya. Sara yang sudah tua melahirkan Ishak, anak tawa.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Ishak",
+  "#JanjiAllah",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Kelahiran Ishak. <pause> Kisah dari Kitab Kejadian, pasal dua puluh satu.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 21",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Tuhan memperhatikan Sara, <warm> dan melakukan tepat seperti yang telah dijanjikan-Nya.",
+   "on_screen_text": "Tuhan memperhatikan Sara, dan melakukan tepat seperti yang telah dijanjikan-Nya.",
+   "verse_ref": "Kejadian 21:1",
+   "highlight_words": [
+    "dijanjikan-Nya."
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Sara mengandung, <warm> lalu melahirkan seorang anak laki-laki bagi Abraham pada masa tuanya.",
+   "on_screen_text": "Sara mengandung, lalu melahirkan seorang anak laki-laki bagi Abraham pada masa tuanya.",
+   "verse_ref": "Kejadian 21:2",
+   "highlight_words": [],
+   "sky": "day",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Abraham saat itu berumur seratus tahun.",
+   "on_screen_text": "Abraham saat itu berumur 100 tahun.",
+   "verse_ref": "Kejadian 21:5",
+   "highlight_words": [
+    "seratus"
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Anak itu dinamai Ishak, <warm> artinya ia tertawa.",
+   "on_screen_text": "Anak itu dinamai Ishak, artinya ia tertawa.",
+   "verse_ref": "Kejadian 21:3",
+   "highlight_words": [
+    "Ishak,"
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "child",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Sara berkata: <hopeful> Allah membuat aku tertawa. Setiap orang yang mendengarnya akan tertawa bersamaku.",
+   "on_screen_text": "Sara berkata: Allah membuat aku tertawa. Setiap orang yang mendengarnya akan tertawa bersamaku.",
+   "verse_ref": "parafrase Kejadian 21:6",
+   "highlight_words": [
+    "tertawa."
+   ],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Abraham mengadakan perjamuan besar <warm> untuk merayakan anak yang dijanjikan itu.",
+   "on_screen_text": "Abraham mengadakan perjamuan besar untuk merayakan anak yang dijanjikan itu.",
+   "verse_ref": "Kejadian 21:8",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "fire",
+    "crowd"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Janji Tuhan mungkin datang terlambat menurut kita, <hopeful> tetapi selalu tepat waktu menurut Dia. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Janji Tuhan selalu tepat waktu menurut Dia.",
+   "verse_ref": "",
+   "highlight_words": [
+    "tepat"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

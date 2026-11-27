@@ -1,0 +1,186 @@
+{
+ "title": "Tembok Yerikho Runtuh",
+ "reference": "Yosua 6",
+ "youtube_title": "Tembok Yerikho Runtuh | Kisah Alkitab 1 Menit",
+ "caption": "Tujuh hari mengelilingi kota, sorak-sorai, dan tembok Yerikho pun runtuh.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Yerikho",
+  "#Yosua",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Tembok Yerikho. <pause> Kisah dari Kitab Yosua, pasal enam.",
+   "on_screen_text": "",
+   "verse_ref": "Yosua 6",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "city",
+   "elements": [
+    "city_walls"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Kota Yerikho tertutup rapat. <serious> Tidak ada yang keluar, tidak ada yang masuk.",
+   "on_screen_text": "Kota Yerikho tertutup rapat. Tidak ada yang keluar, tidak ada yang masuk.",
+   "verse_ref": "Yosua 6:1",
+   "highlight_words": [
+    "rapat."
+   ],
+   "sky": "dusk",
+   "terrain": "city",
+   "elements": [
+    "city_walls"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Tuhan berfirman kepada Yosua: <warm> kelilingilah kota itu sekali sehari selama enam hari.",
+   "on_screen_text": "Tuhan berfirman kepada Yosua: kelilingilah kota itu sekali sehari selama enam hari.",
+   "verse_ref": "parafrase Yosua 6:2-3",
+   "highlight_words": [
+    "kelilingilah"
+   ],
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Para imam berjalan paling depan, <slow> membawa sangkakala dan tabut Tuhan.",
+   "on_screen_text": "Para imam berjalan paling depan, membawa sangkakala dan tabut Tuhan.",
+   "verse_ref": "Yosua 6:4-8",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "city",
+   "elements": [
+    "city_walls",
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "walk"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Pada hari ketujuh, <tense> mereka mengelilingi kota itu tujuh kali.",
+   "on_screen_text": "Pada hari ketujuh, mereka mengelilingi kota itu tujuh kali.",
+   "verse_ref": "Yosua 6:15",
+   "highlight_words": [
+    "tujuh"
+   ],
+   "sky": "day",
+   "terrain": "city",
+   "elements": [
+    "city_walls",
+    "crowd"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Sangkakala ditiup panjang, <determined> dan seluruh bangsa bersorak dengan sorak yang nyaring.",
+   "on_screen_text": "Sangkakala ditiup panjang, dan seluruh bangsa bersorak dengan sorak yang nyaring.",
+   "verse_ref": "Yosua 6:16, 20",
+   "highlight_words": [
+    "bersorak"
+   ],
+   "sky": "fire",
+   "terrain": "city",
+   "elements": [
+    "city_walls",
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Maka runtuhlah tembok Yerikho, <hopeful> dan Rahab beserta keluarganya diselamatkan.",
+   "on_screen_text": "Maka runtuhlah tembok Yerikho, dan Rahab beserta keluarganya diselamatkan.",
+   "verse_ref": "Yosua 6:20-25",
+   "highlight_words": [
+    "runtuhlah"
+   ],
+   "sky": "storm",
+   "terrain": "city",
+   "elements": [
+    "city_walls"
+   ],
+   "characters": [],
+   "action": "lightning_strike",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Ketaatan yang terlihat aneh bisa meruntuhkan tembok terbesar. <hopeful> Percayalah pada cara Tuhan. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Ketaatan bisa meruntuhkan tembok terbesar. Percayalah pada cara Tuhan.",
+   "verse_ref": "",
+   "highlight_words": [
+    "Ketaatan"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

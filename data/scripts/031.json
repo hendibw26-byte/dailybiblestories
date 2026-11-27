@@ -1,0 +1,187 @@
+{
+ "title": "Anak Lembu Emas",
+ "reference": "Keluaran 32",
+ "youtube_title": "Anak Lembu Emas | Kisah Alkitab 1 Menit",
+ "caption": "Ketika menunggu terasa lama, bangsa Israel membuat allah sendiri dari emas.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Keluaran",
+  "#Musa",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Anak Lembu Emas. <pause> Kisah dari Kitab Keluaran, pasal tiga puluh dua.",
+   "on_screen_text": "",
+   "verse_ref": "Keluaran 32",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "mountain",
+   "elements": [
+    "fire"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Musa lama tidak turun dari gunung. <serious> Bangsa itu mulai tidak sabar.",
+   "on_screen_text": "Musa lama tidak turun dari gunung. Bangsa itu mulai tidak sabar.",
+   "verse_ref": "Keluaran 32:1",
+   "highlight_words": [
+    "sabar."
+   ],
+   "sky": "dusk",
+   "terrain": "mountain",
+   "elements": [
+    "tents",
+    "crowd"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Mereka berkata kepada Harun: <tense> buatlah untuk kami allah yang akan berjalan di depan kami.",
+   "on_screen_text": "Mereka berkata kepada Harun: buatlah untuk kami allah yang akan berjalan di depan kami.",
+   "verse_ref": "Keluaran 32:1",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Harun mengumpulkan anting-anting emas <slow> dan membuat patung anak lembu dari emas itu.",
+   "on_screen_text": "Harun mengumpulkan anting-anting emas dan membuat patung anak lembu dari emas itu.",
+   "verse_ref": "Keluaran 32:2-4",
+   "highlight_words": [
+    "emas"
+   ],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [
+    "fire",
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "fire_burst",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Mereka mempersembahkan korban dan berpesta di depan patung itu.",
+   "on_screen_text": "Mereka mempersembahkan korban dan berpesta di depan patung itu.",
+   "verse_ref": "Keluaran 32:6",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "desert",
+   "elements": [
+    "fire",
+    "crowd"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Ketika Musa turun dan melihatnya, <tense> ia sangat marah dan memecahkan kedua loh batu.",
+   "on_screen_text": "Ketika Musa turun dan melihatnya, ia sangat marah dan memecahkan kedua loh batu.",
+   "verse_ref": "Keluaran 32:19",
+   "highlight_words": [
+    "memecahkan"
+   ],
+   "sky": "storm",
+   "terrain": "mountain",
+   "elements": [
+    "stone_tablets"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "lightning_strike",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Musa kembali berdoa memohon ampun bagi bangsanya, <warm> dan Tuhan menyesal atas malapetaka yang dirancangkan-Nya.",
+   "on_screen_text": "Musa kembali berdoa memohon ampun bagi bangsanya, dan Tuhan menyesal atas malapetaka yang dirancangkan-Nya.",
+   "verse_ref": "Keluaran 32:11-14",
+   "highlight_words": [
+    "ampun"
+   ],
+   "sky": "dawn",
+   "terrain": "mountain",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Ketika menunggu terasa lama, <hopeful> jangan ganti Tuhan dengan hal lain. Tetaplah setia. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Ketika menunggu terasa lama, jangan ganti Tuhan dengan hal lain.",
+   "verse_ref": "",
+   "highlight_words": [
+    "setia."
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

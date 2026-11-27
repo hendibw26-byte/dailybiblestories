@@ -1,0 +1,201 @@
+{
+ "title": "Tangga Yakub",
+ "reference": "Kejadian 28",
+ "youtube_title": "Tangga Yakub | Kisah Alkitab 1 Menit",
+ "caption": "Dalam pelarian, Yakub bermimpi tentang tangga ke surga dan mendengar janji: Aku menyertai engkau.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Yakub",
+  "#Betel",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Tangga Yakub. <pause> Kisah dari Kitab Kejadian, pasal dua puluh delapan.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 28",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "desert",
+   "elements": [
+    "moon"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Yakub melarikan diri dari Esau. <slow> Malam itu ia tidur di padang, berbantal sebuah batu.",
+   "on_screen_text": "Yakub melarikan diri dari Esau. Malam itu ia tidur di padang, berbantal sebuah batu.",
+   "verse_ref": "Kejadian 28:10-11",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "desert",
+   "elements": [
+    "moon"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Ia bermimpi melihat tangga dari bumi sampai ke langit, <reverent> dan malaikat-malaikat naik turun di atasnya.",
+   "on_screen_text": "Ia bermimpi melihat tangga dari bumi sampai ke langit, dan malaikat-malaikat naik turun di atasnya.",
+   "verse_ref": "Kejadian 28:12",
+   "highlight_words": [
+    "tangga"
+   ],
+   "sky": "night",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "angel",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "angel",
+     "size": "small",
+     "position": "center_right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Tuhan berdiri di atasnya dan berfirman: <warm> Akulah Allah Abraham dan Allah Ishak.",
+   "on_screen_text": "Tuhan berdiri di atasnya dan berfirman: Akulah Allah Abraham dan Allah Ishak.",
+   "verse_ref": "Kejadian 28:13",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Aku menyertai engkau <hopeful> dan akan melindungi engkau ke mana pun engkau pergi.",
+   "on_screen_text": "Aku menyertai engkau dan akan melindungi engkau ke mana pun engkau pergi.",
+   "verse_ref": "parafrase Kejadian 28:15",
+   "highlight_words": [
+    "menyertai"
+   ],
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Yakub terbangun dan berkata: <reverent> sungguh, Tuhan ada di tempat ini, dan aku tidak mengetahuinya.",
+   "on_screen_text": "Yakub terbangun dan berkata: sungguh, Tuhan ada di tempat ini, dan aku tidak mengetahuinya.",
+   "verse_ref": "Kejadian 28:16",
+   "highlight_words": [
+    "Tuhan"
+   ],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Ia menamai tempat itu Betel, <warm> artinya rumah Allah.",
+   "on_screen_text": "Ia menamai tempat itu Betel, artinya rumah Allah.",
+   "verse_ref": "Kejadian 28:19",
+   "highlight_words": [
+    "Betel,"
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Bahkan di saat terburukmu, <hopeful> Tuhan ada di sana bersamamu. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Bahkan di saat terburukmu, Tuhan ada di sana bersamamu.",
+   "verse_ref": "",
+   "highlight_words": [
+    "bersamamu."
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

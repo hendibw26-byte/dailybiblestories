@@ -1,0 +1,231 @@
+{
+ "title": "Abraham Mempersembahkan Ishak",
+ "reference": "Kejadian 22",
+ "youtube_title": "Abraham & Ishak di Gunung Moria | Kisah Alkitab 1 Menit",
+ "caption": "Iman Abraham diuji di Gunung Moria, dan Tuhan menyediakan.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Abraham",
+  "#TuhanMenyediakan",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Abraham dan Ishak. <pause> Kisah dari Kitab Kejadian, pasal dua puluh dua.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 22",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "mountain",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Allah menguji Abraham: <serious> bawalah Ishak, anakmu yang tunggal, ke tanah Moria.",
+   "on_screen_text": "Allah menguji Abraham: bawalah Ishak, anakmu yang tunggal, ke tanah Moria.",
+   "verse_ref": "Kejadian 22:1-2",
+   "highlight_words": [
+    "menguji"
+   ],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Pagi-pagi Abraham berangkat. <slow> Tiga hari mereka berjalan menuju gunung itu.",
+   "on_screen_text": "Pagi-pagi Abraham berangkat. Tiga hari mereka berjalan menuju gunung itu.",
+   "verse_ref": "Kejadian 22:3-4",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "mountain",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "walk"
+    },
+    {
+     "role": "child",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Ishak bertanya: <whispers> Ayah, di mana anak domba untuk korban bakaran?",
+   "on_screen_text": "Ishak bertanya: Ayah, di mana anak domba untuk korban bakaran?",
+   "verse_ref": "Kejadian 22:7",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "mountain",
+   "elements": [],
+   "characters": [
+    {
+     "role": "child",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_right",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Abraham menjawab: <warm> Allah sendiri yang akan menyediakannya, anakku.",
+   "on_screen_text": "Abraham menjawab: Allah sendiri yang akan menyediakannya, anakku.",
+   "verse_ref": "parafrase Kejadian 22:8",
+   "highlight_words": [
+    "menyediakannya,"
+   ],
+   "sky": "golden",
+   "terrain": "mountain",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "child",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Di atas mezbah, <tense> malaikat Tuhan berseru: jangan apa-apakan anak itu!",
+   "on_screen_text": "Di atas mezbah, malaikat Tuhan berseru: jangan apa-apakan anak itu!",
+   "verse_ref": "Kejadian 22:9-12",
+   "highlight_words": [
+    "jangan"
+   ],
+   "sky": "dusk",
+   "terrain": "mountain",
+   "elements": [
+    "fire"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "raise_arm"
+    },
+    {
+     "role": "angel",
+     "size": "large",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Abraham melihat seekor domba jantan di semak. <reverent> Tempat itu dinamai: Tuhan menyediakan.",
+   "on_screen_text": "Abraham melihat seekor domba jantan di semak. Tempat itu dinamai: Tuhan menyediakan.",
+   "verse_ref": "Kejadian 22:13-14",
+   "highlight_words": [
+    "menyediakan."
+   ],
+   "sky": "golden",
+   "terrain": "mountain",
+   "elements": [
+    "sheep",
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Saat jalan di depan tidak terlihat, <hopeful> percayalah: Tuhan menyediakan. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Saat jalan di depan tidak terlihat, percayalah: Tuhan menyediakan.",
+   "verse_ref": "",
+   "highlight_words": [
+    "menyediakan."
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

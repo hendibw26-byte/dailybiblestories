@@ -1,0 +1,203 @@
+{
+ "title": "Keledai Bileam",
+ "reference": "Bilangan 22-24",
+ "youtube_title": "Keledai Bileam | Kisah Alkitab 1 Menit",
+ "caption": "Seekor keledai melihat malaikat Tuhan, dan kutuk pun berubah menjadi berkat.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Bileam",
+  "#Bilangan",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Keledai Bileam. <pause> Kisah dari Kitab Bilangan, pasal dua puluh dua.",
+   "on_screen_text": "",
+   "verse_ref": "Bilangan 22",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Raja Moab ketakutan melihat bangsa Israel. <serious> Ia menyuruh Bileam untuk mengutuk mereka.",
+   "on_screen_text": "Raja Moab ketakutan melihat bangsa Israel. Ia menyuruh Bileam untuk mengutuk mereka.",
+   "verse_ref": "Bilangan 22:2-6",
+   "highlight_words": [
+    "mengutuk"
+   ],
+   "sky": "fire",
+   "terrain": "city",
+   "elements": [],
+   "characters": [
+    {
+     "role": "king",
+     "size": "large",
+     "position": "center",
+     "props": [
+      "crown"
+     ],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Bileam berangkat menunggang keledainya. <slow> Tetapi malaikat Tuhan menghadang di jalan dengan pedang terhunus.",
+   "on_screen_text": "Bileam berangkat menunggang keledainya. Tetapi malaikat Tuhan menghadang di jalan dengan pedang terhunus.",
+   "verse_ref": "Bilangan 22:21-23",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "valley",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "walk"
+    },
+    {
+     "role": "angel",
+     "size": "large",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Keledai itu melihat malaikat dan menyimpang. <tense> Bileam memukulnya sampai tiga kali.",
+   "on_screen_text": "Keledai itu melihat malaikat dan menyimpang. Bileam memukulnya sampai tiga kali.",
+   "verse_ref": "Bilangan 22:23-27",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "valley",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Lalu Tuhan membuka mulut keledai itu, <whispers> apa salahku sehingga engkau memukul aku?",
+   "on_screen_text": "Lalu Tuhan membuka mulut keledai itu, apa salahku sehingga engkau memukul aku?",
+   "verse_ref": "Bilangan 22:28",
+   "highlight_words": [
+    "keledai"
+   ],
+   "sky": "dusk",
+   "terrain": "valley",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Mata Bileam pun terbuka. <reverent> Ia melihat malaikat Tuhan dan sujud ke tanah.",
+   "on_screen_text": "Mata Bileam pun terbuka. Ia melihat malaikat Tuhan dan sujud ke tanah.",
+   "verse_ref": "Bilangan 22:31",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "valley",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "kneel"
+    },
+    {
+     "role": "angel",
+     "size": "large",
+     "position": "center_right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Akhirnya, bukan kutuk yang keluar dari mulut Bileam, <hopeful> melainkan berkat bagi Israel.",
+   "on_screen_text": "Akhirnya, bukan kutuk yang keluar dari mulut Bileam, melainkan berkat bagi Israel.",
+   "verse_ref": "Bilangan 23-24",
+   "highlight_words": [
+    "berkat"
+   ],
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [
+    "tents",
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Tidak ada yang dapat mengutuk apa yang Tuhan berkati. <hopeful> Ia berkuasa atas segalanya. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Tidak ada yang dapat mengutuk apa yang Tuhan berkati.",
+   "verse_ref": "",
+   "highlight_words": [
+    "berkati."
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

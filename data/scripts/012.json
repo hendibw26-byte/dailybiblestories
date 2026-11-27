@@ -1,0 +1,199 @@
+{
+ "title": "Sodom & Gomora",
+ "reference": "Kejadian 18-19",
+ "youtube_title": "Sodom & Gomora | Kisah Alkitab 1 Menit",
+ "caption": "Abraham berdoa bagi kota itu, dan Allah menyelamatkan Lot. Jangan menoleh ke belakang.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Sodom",
+  "#Lot",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Sodom dan Gomora. <pause> Kisah dari Kitab Kejadian, pasal delapan belas dan sembilan belas.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 18-19",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "city",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Kejahatan kota Sodom dan Gomora sangat besar. <serious> Allah hendak menghukum kota itu.",
+   "on_screen_text": "Kejahatan kota Sodom dan Gomora sangat besar. Allah hendak menghukum kota itu.",
+   "verse_ref": "Kejadian 18:20-21",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "city",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Abraham memohon: <slow> bagaimana jika ada lima puluh orang benar? Atau hanya sepuluh?",
+   "on_screen_text": "Abraham memohon: bagaimana jika ada lima puluh orang benar? Atau hanya sepuluh?",
+   "verse_ref": "Kejadian 18:23-32",
+   "highlight_words": [
+    "sepuluh?"
+   ],
+   "sky": "dusk",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "pray"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Allah menjawab: <warm> demi sepuluh orang benar, Aku tidak akan memusnahkannya.",
+   "on_screen_text": "Allah menjawab: demi sepuluh orang benar, Aku tidak akan memusnahkannya.",
+   "verse_ref": "parafrase Kejadian 18:32",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Ternyata sepuluh pun tidak ada. <tense> Dua malaikat menuntun Lot dan keluarganya keluar dari kota.",
+   "on_screen_text": "Ternyata sepuluh pun tidak ada. Dua malaikat menuntun Lot dan keluarganya keluar dari kota.",
+   "verse_ref": "Kejadian 19:15-16",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "city",
+   "elements": [],
+   "characters": [
+    {
+     "role": "angel",
+     "size": "large",
+     "position": "left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "walk"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Larilah, <serious> jangan menoleh ke belakang!",
+   "on_screen_text": "Larilah, jangan menoleh ke belakang!",
+   "verse_ref": "parafrase Kejadian 19:17",
+   "highlight_words": [
+    "menoleh"
+   ],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Api turun atas kota itu. <slow> Istri Lot menoleh ke belakang, dan menjadi tiang garam.",
+   "on_screen_text": "Api turun atas kota itu. Istri Lot menoleh ke belakang, dan menjadi tiang garam.",
+   "verse_ref": "Kejadian 19:24-26",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "city",
+   "elements": [
+    "fire"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "fire_burst",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Saat Tuhan menuntunmu keluar, <hopeful> jangan terus menoleh ke belakang. Melangkahlah maju. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Saat Tuhan menuntunmu keluar, jangan terus menoleh ke belakang.",
+   "verse_ref": "",
+   "highlight_words": [
+    "maju."
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

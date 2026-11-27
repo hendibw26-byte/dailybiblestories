@@ -1,0 +1,233 @@
+{
+ "title": "Dua Belas Pengintai",
+ "reference": "Bilangan 13-14",
+ "youtube_title": "Dua Belas Pengintai | Kisah Alkitab 1 Menit",
+ "caption": "Sepuluh pengintai melihat raksasa. Yosua dan Kaleb melihat Tuhan yang lebih besar.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#YosuaDanKaleb",
+  "#Iman",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Dua Belas Pengintai. <pause> Kisah dari Kitab Bilangan, pasal tiga belas dan empat belas.",
+   "on_screen_text": "",
+   "verse_ref": "Bilangan 13-14",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Musa mengutus dua belas orang <warm> untuk mengintai tanah Kanaan selama empat puluh hari.",
+   "on_screen_text": "Musa mengutus dua belas orang untuk mengintai tanah Kanaan selama empat puluh hari.",
+   "verse_ref": "Bilangan 13:1-25",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "walk"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "walk"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Mereka kembali membawa buah anggur yang besar. <warm> Negeri itu sungguh berlimpah susu dan madunya.",
+   "on_screen_text": "Mereka kembali membawa buah anggur yang besar. Negeri itu sungguh berlimpah susu dan madunya.",
+   "verse_ref": "Bilangan 13:23-27",
+   "highlight_words": [
+    "berlimpah"
+   ],
+   "sky": "day",
+   "terrain": "garden",
+   "elements": [
+    "trees"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Tetapi sepuluh pengintai berkata: <tense> penduduknya raksasa, kita seperti belalang di mata mereka.",
+   "on_screen_text": "Tetapi sepuluh pengintai berkata: penduduknya raksasa, kita seperti belalang di mata mereka.",
+   "verse_ref": "Bilangan 13:31-33",
+   "highlight_words": [
+    "belalang"
+   ],
+   "sky": "storm",
+   "terrain": "city",
+   "elements": [
+    "city_walls"
+   ],
+   "characters": [
+    {
+     "role": "villain",
+     "size": "giant",
+     "position": "center_right",
+     "props": [
+      "helmet",
+      "spear"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "far_left",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Yosua dan Kaleb berkata: <determined> jangan takut! Tuhan menyertai kita.",
+   "on_screen_text": "Yosua dan Kaleb berkata: jangan takut! Tuhan menyertai kita.",
+   "verse_ref": "parafrase Bilangan 14:6-9",
+   "highlight_words": [
+    "takut!"
+   ],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "raise_arm"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Namun bangsa itu memilih percaya pada ketakutan. <serious> Mereka mengembara empat puluh tahun di padang gurun.",
+   "on_screen_text": "Bangsa itu memilih ketakutan, dan mengembara 40 tahun di padang gurun.",
+   "verse_ref": "Bilangan 14:10, 33-34",
+   "highlight_words": [
+    "40"
+   ],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "crowd"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Dari angkatan itu, <hopeful> hanya Yosua dan Kaleb yang masuk ke tanah perjanjian.",
+   "on_screen_text": "Dari angkatan itu, hanya Yosua dan Kaleb yang masuk ke tanah perjanjian.",
+   "verse_ref": "Bilangan 14:30",
+   "highlight_words": [
+    "Yosua",
+    "Kaleb"
+   ],
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "walk"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Raksasa dalam hidupmu nyata, <hopeful> tetapi Tuhan yang menyertaimu jauh lebih besar. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Raksasa dalam hidupmu nyata, tetapi Tuhan jauh lebih besar.",
+   "verse_ref": "",
+   "highlight_words": [
+    "Tuhan"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

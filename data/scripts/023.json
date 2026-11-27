@@ -1,0 +1,196 @@
+{
+ "title": "Bayi Musa di Sungai Nil",
+ "reference": "Keluaran 2",
+ "youtube_title": "Bayi Musa di Sungai Nil | Kisah Alkitab 1 Menit",
+ "caption": "Sebuah keranjang kecil di Sungai Nil menjadi awal pembebasan bangsa Israel.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Musa",
+  "#Keluaran",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Bayi Musa. <pause> Kisah dari Kitab Keluaran, pasal dua.",
+   "on_screen_text": "",
+   "verse_ref": "Keluaran 1-2",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "river",
+   "elements": [
+    "palm_trees"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Firaun takut bangsa Israel makin banyak. <serious> Ia memerintahkan setiap bayi laki-laki Ibrani dibuang ke Sungai Nil.",
+   "on_screen_text": "Firaun takut bangsa Israel makin banyak. Ia memerintahkan setiap bayi laki-laki Ibrani dibuang ke Sungai Nil.",
+   "verse_ref": "Keluaran 1:22",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "city",
+   "elements": [
+    "temple"
+   ],
+   "characters": [
+    {
+     "role": "king",
+     "size": "large",
+     "position": "center",
+     "props": [
+      "crown"
+     ],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Seorang ibu menyembunyikan bayinya selama tiga bulan.",
+   "on_screen_text": "Seorang ibu menyembunyikan bayinya selama tiga bulan.",
+   "verse_ref": "Keluaran 2:2",
+   "highlight_words": [
+    "menyembunyikan"
+   ],
+   "sky": "night",
+   "terrain": "interior",
+   "elements": [],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Lalu ia membuat keranjang dari pandan, <slow> dan meletakkan bayi itu di antara rumput di tepi sungai.",
+   "on_screen_text": "Lalu ia membuat keranjang dari pandan, dan meletakkan bayi itu di antara rumput di tepi sungai.",
+   "verse_ref": "Keluaran 2:3",
+   "highlight_words": [
+    "keranjang"
+   ],
+   "sky": "dawn",
+   "terrain": "river",
+   "elements": [
+    "palm_trees"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Kakaknya, Miryam, mengawasi dari jauh.",
+   "on_screen_text": "Kakaknya, Miryam, mengawasi dari jauh.",
+   "verse_ref": "Keluaran 2:4",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "river",
+   "elements": [
+    "palm_trees"
+   ],
+   "characters": [
+    {
+     "role": "child",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Putri Firaun datang mandi, <warm> melihat keranjang itu, dan merasa kasihan pada bayi yang menangis.",
+   "on_screen_text": "Putri Firaun datang mandi, melihat keranjang itu, dan merasa kasihan pada bayi yang menangis.",
+   "verse_ref": "Keluaran 2:5-6",
+   "highlight_words": [
+    "kasihan"
+   ],
+   "sky": "day",
+   "terrain": "river",
+   "elements": [
+    "palm_trees"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Bayi itu diasuh oleh ibunya sendiri, <hopeful> lalu dinamai Musa, karena ditarik dari air.",
+   "on_screen_text": "Bayi itu diasuh oleh ibunya sendiri, lalu dinamai Musa, karena ditarik dari air.",
+   "verse_ref": "Keluaran 2:7-10",
+   "highlight_words": [
+    "Musa,"
+   ],
+   "sky": "golden",
+   "terrain": "interior",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Tuhan bekerja melalui keberanian kecil. <hopeful> Ia menjaga rencana-Nya di tengah bahaya. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Tuhan bekerja melalui keberanian kecil dan menjaga rencana-Nya.",
+   "verse_ref": "",
+   "highlight_words": [
+    "keberanian"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

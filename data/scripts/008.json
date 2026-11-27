@@ -1,0 +1,224 @@
+{
+ "title": "Abraham & Lot",
+ "reference": "Kejadian 13",
+ "youtube_title": "Abraham & Lot | Kisah Alkitab 1 Menit",
+ "caption": "Abram memilih damai daripada bertengkar, dan Allah tetap memberkatinya.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Abraham",
+  "#Damai",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Abraham dan Lot. <pause> Kisah dari Kitab Kejadian, pasal tiga belas.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 13",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "sheep"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Abram dan Lot sangat kaya. <warm> Ternak mereka begitu banyak sampai tanah itu tidak cukup.",
+   "on_screen_text": "Abram dan Lot sangat kaya. Ternak mereka begitu banyak sampai tanah itu tidak cukup.",
+   "verse_ref": "Kejadian 13:2-6",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "sheep",
+    "camels",
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Para gembala mereka mulai bertengkar. <serious> Suasana menjadi panas.",
+   "on_screen_text": "Para gembala mereka mulai bertengkar. Suasana menjadi panas.",
+   "verse_ref": "Kejadian 13:7",
+   "highlight_words": [
+    "bertengkar."
+   ],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [
+    "sheep"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "raise_arm"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Abram berkata: <warm> janganlah kita bertengkar, sebab kita ini saudara.",
+   "on_screen_text": "Abram berkata: janganlah kita bertengkar, sebab kita ini saudara.",
+   "verse_ref": "parafrase Kejadian 13:8",
+   "highlight_words": [
+    "saudara."
+   ],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Silakan kamu memilih lebih dulu. <slow> Kalau kamu ke kiri, aku ke kanan.",
+   "on_screen_text": "Silakan kamu memilih lebih dulu. Kalau kamu ke kiri, aku ke kanan.",
+   "verse_ref": "parafrase Kejadian 13:9",
+   "highlight_words": [],
+   "sky": "day",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Lot memilih Lembah Yordan yang subur, <serious> dekat kota Sodom.",
+   "on_screen_text": "Lot memilih Lembah Yordan yang subur, dekat kota Sodom.",
+   "verse_ref": "Kejadian 13:10-12",
+   "highlight_words": [
+    "subur,"
+   ],
+   "sky": "golden",
+   "terrain": "river",
+   "elements": [
+    "city_walls"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Lalu Allah berjanji kepada Abram: <hopeful> seluruh negeri ini akan Kuberikan kepadamu dan keturunanmu.",
+   "on_screen_text": "Lalu Allah berjanji kepada Abram: seluruh negeri ini akan Kuberikan kepadamu dan keturunanmu.",
+   "verse_ref": "Kejadian 13:14-17",
+   "highlight_words": [
+    "Kuberikan"
+   ],
+   "sky": "dusk",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "small",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Memilih damai tidak membuatmu rugi. <hopeful> Allah memperhatikan hati yang mengalah. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Memilih damai tidak membuatmu rugi. Allah memperhatikan hati yang mengalah.",
+   "verse_ref": "",
+   "highlight_words": [
+    "damai"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

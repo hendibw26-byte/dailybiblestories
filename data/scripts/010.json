@@ -1,0 +1,220 @@
+{
+ "title": "Hagar & Ismael",
+ "reference": "Kejadian 16; 21",
+ "youtube_title": "Hagar & Allah yang Melihat | Kisah Alkitab 1 Menit",
+ "caption": "Di padang gurun, Hagar menemukan bahwa Allah melihat dan mendengar dirinya.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Hagar",
+  "#AllahMelihat",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Hagar dan Ismael. <pause> Kisah dari Kitab Kejadian, pasal enam belas dan dua puluh satu.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 16; 21",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Sarai belum mempunyai anak, <slow> lalu memberikan Hagar, hambanya, kepada Abram.",
+   "on_screen_text": "Sarai belum mempunyai anak, lalu memberikan Hagar, hambanya, kepada Abram.",
+   "verse_ref": "Kejadian 16:1-4",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "right",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Ketika Hagar mengandung, <serious> terjadi pertengkaran. Hagar pun melarikan diri ke padang gurun.",
+   "on_screen_text": "Ketika Hagar mengandung, terjadi pertengkaran. Hagar pun melarikan diri ke padang gurun.",
+   "verse_ref": "Kejadian 16:4-6",
+   "highlight_words": [
+    "melarikan"
+   ],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Di dekat mata air, <warm> malaikat Tuhan menemuinya dan memanggilnya dengan namanya.",
+   "on_screen_text": "Di dekat mata air, malaikat Tuhan menemuinya dan memanggilnya dengan namanya.",
+   "verse_ref": "Kejadian 16:7-8",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "well"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "kneel"
+    },
+    {
+     "role": "angel",
+     "size": "large",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Hagar berkata: <reverent> Engkaulah Allah yang melihat aku.",
+   "on_screen_text": "Hagar berkata: Engkaulah Allah yang melihat aku.",
+   "verse_ref": "parafrase Kejadian 16:13",
+   "highlight_words": [
+    "melihat"
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "pray"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Bertahun-tahun kemudian, <tense> Hagar dan Ismael kehabisan air di padang gurun.",
+   "on_screen_text": "Bertahun-tahun kemudian, Hagar dan Ismael kehabisan air di padang gurun.",
+   "verse_ref": "Kejadian 21:14-16",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "kneel"
+    },
+    {
+     "role": "child",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Allah mendengar suara anak itu, <hopeful> lalu membuka mata Hagar sehingga ia melihat sebuah sumur.",
+   "on_screen_text": "Allah mendengar suara anak itu, lalu membuka mata Hagar sehingga ia melihat sebuah sumur.",
+   "verse_ref": "Kejadian 21:17-19",
+   "highlight_words": [
+    "sumur."
+   ],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "well"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "child",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Saat kamu merasa sendirian, <hopeful> Allah tetap melihat dan mendengarmu. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Saat kamu merasa sendirian, Allah tetap melihat dan mendengarmu.",
+   "verse_ref": "",
+   "highlight_words": [
+    "melihat"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

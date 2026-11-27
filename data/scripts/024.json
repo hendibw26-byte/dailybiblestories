@@ -1,0 +1,199 @@
+{
+ "title": "Semak yang Menyala",
+ "reference": "Keluaran 3",
+ "youtube_title": "Musa & Semak yang Menyala | Kisah Alkitab 1 Menit",
+ "caption": "Tuhan memanggil Musa dari semak yang menyala: Aku akan menyertai engkau.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Musa",
+  "#Panggilan",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Semak yang Menyala. <pause> Kisah dari Kitab Keluaran, pasal tiga.",
+   "on_screen_text": "",
+   "verse_ref": "Keluaran 3",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "mountain",
+   "elements": [
+    "burning_bush"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Musa menggembalakan domba di padang gurun, <slow> dekat gunung Allah, Horeb.",
+   "on_screen_text": "Musa menggembalakan domba di padang gurun, dekat gunung Allah, Horeb.",
+   "verse_ref": "Keluaran 3:1",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "mountain",
+   "elements": [
+    "sheep"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "walk"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Ia melihat semak yang menyala, <reverent> tetapi semak itu tidak terbakar habis.",
+   "on_screen_text": "Ia melihat semak yang menyala, tetapi semak itu tidak terbakar habis.",
+   "verse_ref": "Keluaran 3:2-3",
+   "highlight_words": [
+    "menyala,"
+   ],
+   "sky": "dusk",
+   "terrain": "mountain",
+   "elements": [
+    "burning_bush"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "far_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Musa, Musa! <serious> Tanggalkan kasutmu, sebab tempat engkau berdiri adalah tanah yang kudus.",
+   "on_screen_text": "Musa, Musa! Tanggalkan kasutmu, sebab tempat engkau berdiri adalah tanah yang kudus.",
+   "verse_ref": "parafrase Keluaran 3:4-5",
+   "highlight_words": [
+    "kudus."
+   ],
+   "sky": "dusk",
+   "terrain": "mountain",
+   "elements": [
+    "burning_bush",
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Aku telah melihat kesengsaraan umat-Ku. <warm> Pergilah kepada Firaun dan bawalah umat-Ku keluar dari Mesir.",
+   "on_screen_text": "Aku telah melihat kesengsaraan umat-Ku. Pergilah kepada Firaun dan bawalah umat-Ku keluar dari Mesir.",
+   "verse_ref": "parafrase Keluaran 3:7-10",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "mountain",
+   "elements": [
+    "burning_bush"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Musa bertanya: <whispers> siapakah aku ini? Allah menjawab: Aku akan menyertai engkau.",
+   "on_screen_text": "Musa bertanya: siapakah aku ini? Allah menjawab: Aku akan menyertai engkau.",
+   "verse_ref": "Keluaran 3:11-12",
+   "highlight_words": [
+    "menyertai"
+   ],
+   "sky": "night",
+   "terrain": "mountain",
+   "elements": [
+    "burning_bush"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "pray"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Allah memperkenalkan diri-Nya: <reverent> AKU ADALAH AKU.",
+   "on_screen_text": "Allah memperkenalkan diri-Nya: AKU ADALAH AKU.",
+   "verse_ref": "Keluaran 3:14",
+   "highlight_words": [
+    "AKU"
+   ],
+   "sky": "dawn",
+   "terrain": "mountain",
+   "elements": [
+    "rays"
+   ],
+   "characters": [],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Tuhan tidak memanggil orang yang sudah siap. <hopeful> Ia menyertai orang yang mau taat. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Tuhan tidak memanggil orang yang sudah siap. Ia menyertai orang yang mau taat.",
+   "verse_ref": "",
+   "highlight_words": [
+    "taat."
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

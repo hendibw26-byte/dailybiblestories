@@ -1,0 +1,193 @@
+{
+ "title": "Ular Tembaga",
+ "reference": "Bilangan 21",
+ "youtube_title": "Ular Tembaga | Kisah Alkitab 1 Menit",
+ "caption": "Siapa pun yang dipagut ular dan memandang ular tembaga itu, akan tetap hidup.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#UlarTembaga",
+  "#Bilangan",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Ular Tembaga. <pause> Kisah dari Kitab Bilangan, pasal dua puluh satu.",
+   "on_screen_text": "",
+   "verse_ref": "Bilangan 21",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Dalam perjalanan, bangsa Israel kembali bersungut-sungut <serious> terhadap Allah dan Musa.",
+   "on_screen_text": "Dalam perjalanan, bangsa Israel kembali bersungut-sungut terhadap Allah dan Musa.",
+   "verse_ref": "Bilangan 21:4-5",
+   "highlight_words": [
+    "bersungut-sungut"
+   ],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [
+    "crowd",
+    "tents"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Lalu datanglah ular-ular tedung yang memagut mereka. <tense> Banyak orang menderita.",
+   "on_screen_text": "Lalu datanglah ular-ular tedung yang memagut mereka. Banyak orang menderita.",
+   "verse_ref": "Bilangan 21:6",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "kneel"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Mereka datang kepada Musa: <whispers> kami telah berdosa. Berdoalah kepada Tuhan untuk kami.",
+   "on_screen_text": "Mereka datang kepada Musa: kami telah berdosa. Berdoalah kepada Tuhan untuk kami.",
+   "verse_ref": "Bilangan 21:7",
+   "highlight_words": [
+    "berdosa."
+   ],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Tuhan menyuruh Musa membuat ular dari tembaga <slow> dan memasangnya pada sebuah tiang.",
+   "on_screen_text": "Tuhan menyuruh Musa membuat ular dari tembaga dan memasangnya pada sebuah tiang.",
+   "verse_ref": "Bilangan 21:8-9",
+   "highlight_words": [
+    "tiang."
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Setiap orang yang dipagut ular, <hopeful> lalu memandang ular tembaga itu, tetap hidup.",
+   "on_screen_text": "Setiap orang yang dipagut ular, lalu memandang ular tembaga itu, tetap hidup.",
+   "verse_ref": "Bilangan 21:9",
+   "highlight_words": [
+    "memandang"
+   ],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "crowd",
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Kelak Yesus berkata, <reverent> seperti ular itu ditinggikan, demikian juga Anak Manusia harus ditinggikan.",
+   "on_screen_text": "Kelak Yesus berkata, seperti ular itu ditinggikan, demikian juga Anak Manusia harus ditinggikan.",
+   "verse_ref": "Yohanes 3:14-15",
+   "highlight_words": [
+    "ditinggikan."
+   ],
+   "sky": "dusk",
+   "terrain": "hills",
+   "elements": [
+    "cross"
+   ],
+   "characters": [],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Pertolongan datang saat kita berhenti mengeluh <hopeful> dan mulai memandang kepada Tuhan. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Pertolongan datang saat kita mulai memandang kepada Tuhan.",
+   "verse_ref": "",
+   "highlight_words": [
+    "memandang"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

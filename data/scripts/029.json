@@ -1,0 +1,178 @@
+{
+ "title": "Air dari Batu",
+ "reference": "Keluaran 17",
+ "youtube_title": "Air dari Batu | Kisah Alkitab 1 Menit",
+ "caption": "Di tengah padang gurun yang kering, Tuhan memancarkan air dari batu.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Musa",
+  "#Keluaran",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Air dari Batu. <pause> Kisah dari Kitab Keluaran, pasal tujuh belas.",
+   "on_screen_text": "",
+   "verse_ref": "Keluaran 17",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Bangsa Israel berkemah di Rafidim, <serious> tetapi di sana tidak ada air untuk diminum.",
+   "on_screen_text": "Bangsa Israel berkemah di Rafidim, tetapi di sana tidak ada air untuk diminum.",
+   "verse_ref": "Keluaran 17:1",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Mereka bertengkar dengan Musa: <tense> berilah kami air! Mengapa kau bawa kami ke sini?",
+   "on_screen_text": "Mereka bertengkar dengan Musa: berilah kami air! Mengapa kau bawa kami ke sini?",
+   "verse_ref": "Keluaran 17:2-3",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Musa berseru kepada Tuhan: <whispers> apa yang harus kulakukan kepada bangsa ini?",
+   "on_screen_text": "Musa berseru kepada Tuhan: apa yang harus kulakukan kepada bangsa ini?",
+   "verse_ref": "Keluaran 17:4",
+   "highlight_words": [
+    "berseru"
+   ],
+   "sky": "dusk",
+   "terrain": "mountain",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "pray"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Tuhan berfirman: <warm> pukullah gunung batu di Horeb dengan tongkatmu.",
+   "on_screen_text": "Tuhan berfirman: pukullah gunung batu di Horeb dengan tongkatmu.",
+   "verse_ref": "parafrase Keluaran 17:5-6",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "mountain",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Musa memukul batu itu, <hopeful> dan air pun memancar keluar untuk seluruh bangsa.",
+   "on_screen_text": "Musa memukul batu itu, dan air pun memancar keluar untuk seluruh bangsa.",
+   "verse_ref": "Keluaran 17:6",
+   "highlight_words": [
+    "memancar"
+   ],
+   "sky": "golden",
+   "terrain": "river",
+   "elements": [
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Tempat itu dinamai Masa dan Meriba, <slow> karena mereka mencobai Tuhan: adakah Tuhan di tengah kita?",
+   "on_screen_text": "Tempat itu dinamai Masa dan Meriba, karena mereka mencobai Tuhan: adakah Tuhan di tengah kita?",
+   "verse_ref": "Keluaran 17:7",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Jangan ragukan kehadiran Tuhan saat hidup terasa kering. <hopeful> Ia sanggup membuat jalan keluar. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Jangan ragukan kehadiran Tuhan saat hidup terasa kering.",
+   "verse_ref": "",
+   "highlight_words": [
+    "kehadiran"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

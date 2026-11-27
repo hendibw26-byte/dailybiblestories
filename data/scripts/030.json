@@ -1,0 +1,177 @@
+{
+ "title": "Sepuluh Perintah Allah",
+ "reference": "Keluaran 19-20",
+ "youtube_title": "Sepuluh Perintah Allah | Kisah Alkitab 1 Menit",
+ "caption": "Di Gunung Sinai, Allah memberikan Sepuluh Perintah kepada umat-Nya.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#SepuluhPerintah",
+  "#Sinai",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Sepuluh Perintah Allah. <pause> Kisah dari Kitab Keluaran, pasal sembilan belas dan dua puluh.",
+   "on_screen_text": "",
+   "verse_ref": "Keluaran 19-20",
+   "highlight_words": [],
+   "sky": "storm",
+   "terrain": "mountain",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Bangsa Israel berkemah di kaki Gunung Sinai. <tense> Gunung itu bergetar, penuh guruh, kilat, dan asap.",
+   "on_screen_text": "Bangsa Israel berkemah di kaki Gunung Sinai. Gunung itu bergetar, penuh guruh, kilat, dan asap.",
+   "verse_ref": "Keluaran 19:16-18",
+   "highlight_words": [],
+   "sky": "storm",
+   "terrain": "mountain",
+   "elements": [
+    "tents"
+   ],
+   "characters": [],
+   "action": "lightning_strike",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Lalu Allah berfirman kepada umat-Nya: <reverent> jangan ada padamu allah lain di hadapan-Ku.",
+   "on_screen_text": "Lalu Allah berfirman kepada umat-Nya: jangan ada padamu allah lain di hadapan-Ku.",
+   "verse_ref": "parafrase Keluaran 20:3",
+   "highlight_words": [
+    "allah"
+   ],
+   "sky": "storm",
+   "terrain": "mountain",
+   "elements": [
+    "rays"
+   ],
+   "characters": [],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Jangan membuat patung untuk disembah. <serious> Jangan menyebut nama Tuhan dengan sembarangan.",
+   "on_screen_text": "Jangan membuat patung untuk disembah. Jangan menyebut nama Tuhan dengan sembarangan.",
+   "verse_ref": "parafrase Keluaran 20:4-7",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "mountain",
+   "elements": [
+    "crowd"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Ingatlah hari Sabat. <warm> Hormatilah ayahmu dan ibumu.",
+   "on_screen_text": "Ingatlah hari Sabat. Hormatilah ayahmu dan ibumu.",
+   "verse_ref": "parafrase Keluaran 20:8-12",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "child",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Jangan membunuh, jangan berzinah, jangan mencuri, <serious> jangan berdusta, dan jangan mengingini milik sesamamu.",
+   "on_screen_text": "Jangan membunuh, jangan berzinah, jangan mencuri, jangan berdusta, dan jangan mengingini milik sesamamu.",
+   "verse_ref": "parafrase Keluaran 20:13-17",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "mountain",
+   "elements": [
+    "crowd"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Perintah-perintah itu ditulis <reverent> pada dua loh batu, dan Musa membawanya kepada umat.",
+   "on_screen_text": "Perintah-perintah itu ditulis pada dua loh batu, dan Musa membawanya kepada umat.",
+   "verse_ref": "Keluaran 31:18; 32:15",
+   "highlight_words": [
+    "batu,"
+   ],
+   "sky": "dawn",
+   "terrain": "mountain",
+   "elements": [
+    "stone_tablets",
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_right",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Perintah Tuhan bukan beban, <hopeful> melainkan jalan menuju hidup yang baik. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Perintah Tuhan bukan beban, melainkan jalan menuju hidup yang baik.",
+   "verse_ref": "",
+   "highlight_words": [
+    "jalan"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

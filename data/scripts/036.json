@@ -1,0 +1,211 @@
+{
+ "title": "Menyeberangi Sungai Yordan",
+ "reference": "Yosua 3-4",
+ "youtube_title": "Menyeberangi Sungai Yordan | Kisah Alkitab 1 Menit",
+ "caption": "Ketika kaki para imam menyentuh air, Sungai Yordan berhenti mengalir.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Yosua",
+  "#Yordan",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Menyeberangi Sungai Yordan. <pause> Kisah dari Kitab Yosua, pasal tiga dan empat.",
+   "on_screen_text": "",
+   "verse_ref": "Yosua 3-4",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "river",
+   "elements": [
+    "tents"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Bangsa Israel tiba di tepi Sungai Yordan, <serious> yang sedang meluap pada musim menuai.",
+   "on_screen_text": "Bangsa Israel tiba di tepi Sungai Yordan, yang sedang meluap pada musim menuai.",
+   "verse_ref": "Yosua 3:1, 15",
+   "highlight_words": [
+    "meluap"
+   ],
+   "sky": "storm",
+   "terrain": "river",
+   "elements": [
+    "tents",
+    "crowd"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Yosua berkata: <warm> kuduskanlah dirimu, sebab besok Tuhan akan melakukan perbuatan ajaib.",
+   "on_screen_text": "Yosua berkata: kuduskanlah dirimu, sebab besok Tuhan akan melakukan perbuatan ajaib.",
+   "verse_ref": "parafrase Yosua 3:5",
+   "highlight_words": [
+    "ajaib."
+   ],
+   "sky": "dusk",
+   "terrain": "river",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Para imam mengangkat tabut perjanjian <slow> dan melangkah masuk ke dalam air.",
+   "on_screen_text": "Para imam mengangkat tabut perjanjian dan melangkah masuk ke dalam air.",
+   "verse_ref": "Yosua 3:14-15",
+   "highlight_words": [
+    "tabut"
+   ],
+   "sky": "dawn",
+   "terrain": "river",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "walk"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Begitu kaki mereka menyentuh air, <hopeful> aliran sungai berhenti dan menjadi bendungan di hulu.",
+   "on_screen_text": "Begitu kaki mereka menyentuh air, aliran sungai berhenti dan menjadi bendungan di hulu.",
+   "verse_ref": "Yosua 3:15-16",
+   "highlight_words": [
+    "berhenti"
+   ],
+   "sky": "dawn",
+   "terrain": "sea",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "waves_part",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Seluruh bangsa menyeberang di tanah yang kering.",
+   "on_screen_text": "Seluruh bangsa menyeberang di tanah yang kering.",
+   "verse_ref": "Yosua 3:17",
+   "highlight_words": [
+    "kering."
+   ],
+   "sky": "golden",
+   "terrain": "sea",
+   "elements": [
+    "crowd"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "small",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "walk"
+    }
+   ],
+   "action": "waves_part",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Mereka mengambil dua belas batu dari sungai <reverent> sebagai tanda peringatan bagi anak cucu mereka.",
+   "on_screen_text": "Dua belas batu diambil dari sungai sebagai tanda peringatan bagi anak cucu.",
+   "verse_ref": "Yosua 4:1-7, 20-24",
+   "highlight_words": [
+    "peringatan"
+   ],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    },
+    {
+     "role": "child",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Kadang Tuhan membuka jalan setelah kita melangkah dengan iman. <hopeful> Jangan lupa mengingat karya-Nya. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Kadang Tuhan membuka jalan setelah kita melangkah dengan iman.",
+   "verse_ref": "",
+   "highlight_words": [
+    "melangkah"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

@@ -1,0 +1,227 @@
+{
+ "title": "Yusuf Mengampuni",
+ "reference": "Kejadian 42-45; 50",
+ "youtube_title": "Yusuf Mengampuni Saudara-saudaranya | Kisah Alkitab 1 Menit",
+ "caption": "Kamu merencanakan yang jahat, tetapi Allah merencanakannya untuk kebaikan.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Yusuf",
+  "#Pengampunan",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Yusuf Mengampuni. <pause> Kisah dari Kitab Kejadian, pasal empat puluh dua sampai empat puluh lima.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 42-45",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "city",
+   "elements": [
+    "temple"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Kelaparan melanda seluruh negeri. <slow> Saudara-saudara Yusuf datang ke Mesir untuk membeli gandum.",
+   "on_screen_text": "Kelaparan melanda seluruh negeri. Saudara-saudara Yusuf datang ke Mesir untuk membeli gandum.",
+   "verse_ref": "Kejadian 42:1-5",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [
+    "camels"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "walk"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Mereka sujud di hadapan Yusuf, <serious> tanpa mengenali bahwa penguasa itu adalah adik mereka.",
+   "on_screen_text": "Mereka sujud di hadapan Yusuf, tanpa mengenali bahwa penguasa itu adalah adik mereka.",
+   "verse_ref": "Kejadian 42:6-8",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "interior",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "kneel"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "kneel"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [
+      "crown"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Akhirnya Yusuf tidak dapat menahan diri. <warm> Ia menangis keras dan berkata: akulah Yusuf.",
+   "on_screen_text": "Akhirnya Yusuf tidak dapat menahan diri. Ia menangis keras dan berkata: akulah Yusuf.",
+   "verse_ref": "Kejadian 45:1-3",
+   "highlight_words": [
+    "Yusuf."
+   ],
+   "sky": "dusk",
+   "terrain": "interior",
+   "elements": [],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Saudara-saudaranya ketakutan, <warm> tetapi Yusuf berkata: jangan menyesali diri, Allah mengutusku mendahului kamu.",
+   "on_screen_text": "Saudara-saudaranya ketakutan, tetapi Yusuf berkata: jangan menyesali diri, Allah mengutusku mendahului kamu.",
+   "verse_ref": "Kejadian 45:4-5",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "interior",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Kamu merencanakan yang jahat, <reverent> tetapi Allah merencanakannya untuk kebaikan.",
+   "on_screen_text": "Kamu merencanakan yang jahat, tetapi Allah merencanakannya untuk kebaikan.",
+   "verse_ref": "parafrase Kejadian 50:20",
+   "highlight_words": [
+    "kebaikan."
+   ],
+   "sky": "golden",
+   "terrain": "city",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Yusuf memeluk mereka semua, <warm> lalu menjemput ayahnya, Yakub, ke Mesir.",
+   "on_screen_text": "Yusuf memeluk mereka semua, lalu menjemput ayahnya, Yakub, ke Mesir.",
+   "verse_ref": "Kejadian 45:14-15, 27-28",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "camels"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Pengampunan membebaskan hati. <hopeful> Tuhan sanggup mengubah luka menjadi kebaikan. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Pengampunan membebaskan hati. Tuhan sanggup mengubah luka menjadi kebaikan.",
+   "verse_ref": "",
+   "highlight_words": [
+    "Pengampunan"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

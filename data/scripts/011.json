@@ -1,0 +1,229 @@
+{
+ "title": "Tiga Tamu Abraham",
+ "reference": "Kejadian 18",
+ "youtube_title": "Tiga Tamu Abraham | Kisah Alkitab 1 Menit",
+ "caption": "Adakah sesuatu yang mustahil bagi Tuhan? Kisah tiga tamu yang datang ke kemah Abraham.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Abraham",
+  "#Sara",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Tiga Tamu Abraham. <pause> Kisah dari Kitab Kejadian, pasal delapan belas.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 18",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "trees"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Di siang yang terik, <warm> Abraham melihat tiga orang berdiri di dekat kemahnya.",
+   "on_screen_text": "Di siang yang terik, Abraham melihat tiga orang berdiri di dekat kemahnya.",
+   "verse_ref": "Kejadian 18:1-2",
+   "highlight_words": [],
+   "sky": "day",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "trees"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "far_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Ia berlari menyambut mereka, <warm> lalu menyiapkan air, roti, dan hidangan terbaik.",
+   "on_screen_text": "Ia berlari menyambut mereka, lalu menyiapkan air, roti, dan hidangan terbaik.",
+   "verse_ref": "Kejadian 18:2-8",
+   "highlight_words": [
+    "terbaik."
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "fire"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "walk"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Seorang tamu berkata: <hopeful> tahun depan, Sara istrimu akan melahirkan seorang anak laki-laki.",
+   "on_screen_text": "Seorang tamu berkata: tahun depan, Sara istrimu akan melahirkan seorang anak laki-laki.",
+   "verse_ref": "Kejadian 18:10",
+   "highlight_words": [
+    "anak"
+   ],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Sara mendengarnya dari balik kemah <whispers> dan tertawa dalam hati. Bukankah aku sudah tua?",
+   "on_screen_text": "Sara mendengarnya dari balik kemah dan tertawa dalam hati. Bukankah aku sudah tua?",
+   "verse_ref": "Kejadian 18:11-12",
+   "highlight_words": [
+    "tertawa"
+   ],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Tuhan berfirman: <serious> adakah sesuatu yang terlalu sulit bagi Tuhan?",
+   "on_screen_text": "Tuhan berfirman: adakah sesuatu yang terlalu sulit bagi Tuhan?",
+   "verse_ref": "parafrase Kejadian 18:14",
+   "highlight_words": [
+    "sulit"
+   ],
+   "sky": "night",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "moon"
+   ],
+   "characters": [],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Dan pada waktu yang ditentukan, <warm> janji itu benar-benar akan terjadi.",
+   "on_screen_text": "Dan pada waktu yang ditentukan, janji itu benar-benar akan terjadi.",
+   "verse_ref": "Kejadian 18:14; 21:1-2",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Tidak ada yang terlalu sulit bagi Tuhan. <hopeful> Termasuk masalah yang sedang kamu hadapi. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Tidak ada yang terlalu sulit bagi Tuhan.",
+   "verse_ref": "",
+   "highlight_words": [
+    "Tuhan."
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

@@ -1,0 +1,197 @@
+{
+ "title": "Janji Bintang di Langit",
+ "reference": "Kejadian 15",
+ "youtube_title": "Janji Allah kepada Abraham | Kisah Alkitab 1 Menit",
+ "caption": "Hitunglah bintang-bintang. Abram percaya, dan Allah memperhitungkannya sebagai kebenaran.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Abraham",
+  "#Iman",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Janji Bintang di Langit. <pause> Kisah dari Kitab Kejadian, pasal lima belas.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 15",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "desert",
+   "elements": [
+    "tents",
+    "moon"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Abram gelisah. <serious> Ia sudah tua dan belum mempunyai seorang anak pun.",
+   "on_screen_text": "Abram gelisah. Ia sudah tua dan belum mempunyai seorang anak pun.",
+   "verse_ref": "Kejadian 15:2-3",
+   "highlight_words": [
+    "anak"
+   ],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Tuhan berfirman kepadanya: <warm> jangan takut, Akulah perisaimu.",
+   "on_screen_text": "Tuhan berfirman kepadanya: jangan takut, Akulah perisaimu.",
+   "verse_ref": "parafrase Kejadian 15:1",
+   "highlight_words": [
+    "perisaimu."
+   ],
+   "sky": "dusk",
+   "terrain": "desert",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Lalu Tuhan membawanya keluar <slow> dan berkata: lihatlah ke langit, hitunglah bintang-bintang.",
+   "on_screen_text": "Lalu Tuhan membawanya keluar dan berkata: lihatlah ke langit, hitunglah bintang-bintang.",
+   "verse_ref": "Kejadian 15:5",
+   "highlight_words": [
+    "bintang-bintang."
+   ],
+   "sky": "night",
+   "terrain": "desert",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "small",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Demikianlah banyaknya keturunanmu nanti.",
+   "on_screen_text": "Demikianlah banyaknya keturunanmu nanti.",
+   "verse_ref": "parafrase Kejadian 15:5",
+   "highlight_words": [
+    "keturunanmu"
+   ],
+   "sky": "night",
+   "terrain": "hills",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Abram percaya kepada Tuhan, <reverent> dan Tuhan memperhitungkannya sebagai kebenaran.",
+   "on_screen_text": "Abram percaya kepada Tuhan, dan Tuhan memperhitungkannya sebagai kebenaran.",
+   "verse_ref": "Kejadian 15:6",
+   "highlight_words": [
+    "percaya"
+   ],
+   "sky": "dawn",
+   "terrain": "desert",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "pray"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Hari itu Allah mengikat perjanjian dengan Abram, <warm> menjanjikan tanah bagi keturunannya.",
+   "on_screen_text": "Hari itu Allah mengikat perjanjian dengan Abram, menjanjikan tanah bagi keturunannya.",
+   "verse_ref": "Kejadian 15:18",
+   "highlight_words": [],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "fire"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center_left",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Saat janji Tuhan terasa lama, <hopeful> tetaplah percaya. Ia tidak pernah lupa. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Saat janji Tuhan terasa lama, tetaplah percaya. Ia tidak pernah lupa.",
+   "verse_ref": "",
+   "highlight_words": [
+    "percaya."
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

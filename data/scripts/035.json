@@ -1,0 +1,225 @@
+{
+ "title": "Rahab & Para Pengintai",
+ "reference": "Yosua 2",
+ "youtube_title": "Rahab & Para Pengintai | Kisah Alkitab 1 Menit",
+ "caption": "Iman seorang perempuan di Yerikho, dan tali merah di jendelanya.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Rahab",
+  "#Yosua",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Rahab dan Para Pengintai. <pause> Kisah dari Kitab Yosua, pasal dua.",
+   "on_screen_text": "",
+   "verse_ref": "Yosua 2",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "city",
+   "elements": [
+    "city_walls"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Yosua mengutus dua pengintai <slow> ke kota Yerikho yang dikelilingi tembok tinggi.",
+   "on_screen_text": "Yosua mengutus dua pengintai ke kota Yerikho yang dikelilingi tembok tinggi.",
+   "verse_ref": "Yosua 2:1",
+   "highlight_words": [],
+   "sky": "dusk",
+   "terrain": "city",
+   "elements": [
+    "city_walls"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "walk"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Mereka menumpang di rumah Rahab. <tense> Raja Yerikho mengetahuinya dan menyuruh orang menangkap mereka.",
+   "on_screen_text": "Mereka menumpang di rumah Rahab. Raja Yerikho mengetahuinya dan menyuruh orang menangkap mereka.",
+   "verse_ref": "Yosua 2:1-3",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "city",
+   "elements": [
+    "city_walls"
+   ],
+   "characters": [
+    {
+     "role": "king",
+     "size": "large",
+     "position": "center",
+     "props": [
+      "crown"
+     ],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Rahab menyembunyikan mereka di atas sotoh, <whispers> di bawah batang-batang rami.",
+   "on_screen_text": "Rahab menyembunyikan mereka di atas sotoh, di bawah batang-batang rami.",
+   "verse_ref": "Yosua 2:4-6",
+   "highlight_words": [
+    "menyembunyikan"
+   ],
+   "sky": "night",
+   "terrain": "interior",
+   "elements": [],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "kneel"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Ia berkata: <reverent> Tuhan, Allahmu, ialah Allah di langit di atas dan di bumi di bawah.",
+   "on_screen_text": "Ia berkata: Tuhan, Allahmu, ialah Allah di langit di atas dan di bumi di bawah.",
+   "verse_ref": "parafrase Yosua 2:11",
+   "highlight_words": [
+    "Allah"
+   ],
+   "sky": "night",
+   "terrain": "city",
+   "elements": [
+    "moon",
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "pray"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Rahab memohon keselamatan bagi keluarganya. <warm> Tanda perjanjiannya: tali kirmizi di jendela rumahnya.",
+   "on_screen_text": "Rahab memohon keselamatan bagi keluarganya. Tanda perjanjiannya: tali kirmizi di jendela rumahnya.",
+   "verse_ref": "Yosua 2:12-21",
+   "highlight_words": [
+    "kirmizi"
+   ],
+   "sky": "dawn",
+   "terrain": "city",
+   "elements": [
+    "city_walls"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Rahab dan keluarganya diselamatkan, <hopeful> dan namanya kelak tercatat dalam silsilah Yesus.",
+   "on_screen_text": "Rahab dan keluarganya diselamatkan, dan namanya kelak tercatat dalam silsilah Yesus.",
+   "verse_ref": "Yosua 6:25; Matius 1:5",
+   "highlight_words": [
+    "silsilah"
+   ],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "child",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Masa lalumu tidak menentukan masa depanmu. <hopeful> Iman kepada Tuhan bisa mengubah segalanya. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Masa lalumu tidak menentukan masa depanmu bersama Tuhan.",
+   "verse_ref": "",
+   "highlight_words": [
+    "masa"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "woman",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

@@ -1,0 +1,185 @@
+{
+ "title": "Sepuluh Tulah",
+ "reference": "Keluaran 7-11",
+ "youtube_title": "Sepuluh Tulah Mesir | Kisah Alkitab 1 Menit",
+ "caption": "Biarkan umat-Ku pergi. Firaun mengeraskan hati, dan sepuluh tulah melanda Mesir.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Musa",
+  "#SepuluhTulah",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Sepuluh Tulah. <pause> Kisah dari Kitab Keluaran, pasal tujuh sampai sebelas.",
+   "on_screen_text": "",
+   "verse_ref": "Keluaran 7-11",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "city",
+   "elements": [
+    "temple"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Musa dan Harun menghadap Firaun: <determined> beginilah firman Tuhan, biarkan umat-Ku pergi.",
+   "on_screen_text": "Musa dan Harun menghadap Firaun: beginilah firman Tuhan, biarkan umat-Ku pergi.",
+   "verse_ref": "Keluaran 5:1",
+   "highlight_words": [
+    "pergi."
+   ],
+   "sky": "golden",
+   "terrain": "interior",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "king",
+     "size": "large",
+     "position": "right",
+     "props": [
+      "crown"
+     ],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Tetapi Firaun mengeraskan hatinya <serious> dan menolak mendengarkan.",
+   "on_screen_text": "Tetapi Firaun mengeraskan hatinya dan menolak mendengarkan.",
+   "verse_ref": "Keluaran 7:13",
+   "highlight_words": [
+    "mengeraskan"
+   ],
+   "sky": "dusk",
+   "terrain": "interior",
+   "elements": [],
+   "characters": [
+    {
+     "role": "king",
+     "size": "large",
+     "position": "center",
+     "props": [
+      "crown"
+     ],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "push_up"
+  },
+  {
+   "narration": "Maka tulah demi tulah melanda Mesir: <tense> air menjadi darah, katak, nyamuk, dan lalat pikat.",
+   "on_screen_text": "Maka tulah demi tulah melanda Mesir: air menjadi darah, katak, nyamuk, dan lalat pikat.",
+   "verse_ref": "Keluaran 7-8",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "river",
+   "elements": [],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Lalu penyakit ternak, barah, hujan es, belalang, <slow> dan gelap gulita selama tiga hari.",
+   "on_screen_text": "Lalu penyakit ternak, barah, hujan es, belalang, dan gelap gulita selama tiga hari.",
+   "verse_ref": "Keluaran 9-10",
+   "highlight_words": [],
+   "sky": "storm",
+   "terrain": "city",
+   "elements": [],
+   "characters": [],
+   "action": "lightning_strike",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Namun di tanah Gosyen, <warm> tempat umat Israel tinggal, Tuhan melindungi mereka.",
+   "on_screen_text": "Namun di tanah Gosyen, tempat umat Israel tinggal, Tuhan melindungi mereka.",
+   "verse_ref": "Keluaran 8:22; 10:23",
+   "highlight_words": [
+    "melindungi"
+   ],
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [
+    "tents",
+    "rays"
+   ],
+   "characters": [],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Tulah kesepuluh adalah yang terberat. <serious> Akhirnya Firaun melepaskan bangsa Israel.",
+   "on_screen_text": "Tulah kesepuluh adalah yang terberat. Akhirnya Firaun melepaskan bangsa Israel.",
+   "verse_ref": "Keluaran 11-12",
+   "highlight_words": [
+    "melepaskan"
+   ],
+   "sky": "night",
+   "terrain": "city",
+   "elements": [],
+   "characters": [
+    {
+     "role": "king",
+     "size": "large",
+     "position": "center",
+     "props": [
+      "crown"
+     ],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Hati yang keras hanya membawa penderitaan. <hopeful> Dengarkan suara Tuhan selagi masih ada waktu. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Hati yang keras hanya membawa penderitaan. Dengarkan suara Tuhan.",
+   "verse_ref": "",
+   "highlight_words": [
+    "Dengarkan"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}

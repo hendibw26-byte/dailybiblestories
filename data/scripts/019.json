@@ -1,0 +1,231 @@
+{
+ "title": "Yusuf & Jubah Indah",
+ "reference": "Kejadian 37",
+ "youtube_title": "Yusuf & Jubah Indah | Kisah Alkitab 1 Menit",
+ "caption": "Dikasihi ayahnya, dibenci saudara-saudaranya, lalu dijual ke Mesir. Awal kisah Yusuf.",
+ "hashtags": [
+  "#KisahAlkitab",
+  "#Alkitab",
+  "#Yusuf",
+  "#Kejadian",
+  "#RenunganHarian",
+  "#Kristen",
+  "#Shorts"
+ ],
+ "scenes": [
+  {
+   "narration": "<reverent> Yusuf dan Jubah Indah. <pause> Kisah dari Kitab Kejadian, pasal tiga puluh tujuh.",
+   "on_screen_text": "",
+   "verse_ref": "Kejadian 37",
+   "highlight_words": [],
+   "sky": "dawn",
+   "terrain": "hills",
+   "elements": [
+    "sheep"
+   ],
+   "characters": [],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Yakub sangat mengasihi Yusuf, <warm> dan membuatkannya sebuah jubah yang indah.",
+   "on_screen_text": "Yakub sangat mengasihi Yusuf, dan membuatkannya sebuah jubah yang indah.",
+   "verse_ref": "Kejadian 37:3",
+   "highlight_words": [
+    "jubah"
+   ],
+   "sky": "golden",
+   "terrain": "hills",
+   "elements": [
+    "tents"
+   ],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "left",
+     "props": [
+      "staff"
+     ],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Saudara-saudaranya menjadi iri <serious> dan membencinya, apalagi setelah Yusuf menceritakan mimpinya.",
+   "on_screen_text": "Saudara-saudaranya menjadi iri dan membencinya, apalagi setelah Yusuf menceritakan mimpinya.",
+   "verse_ref": "Kejadian 37:4-8",
+   "highlight_words": [
+    "iri"
+   ],
+   "sky": "dusk",
+   "terrain": "hills",
+   "elements": [
+    "sheep"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_right",
+     "props": [],
+     "pose": "stand"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "stand"
+    }
+   ],
+   "action": "none",
+   "camera": "pan_left"
+  },
+  {
+   "narration": "Dalam mimpi itu, <slow> berkas-berkas gandum dan bintang-bintang sujud kepadanya.",
+   "on_screen_text": "Dalam mimpi itu, berkas-berkas gandum dan bintang-bintang sujud kepadanya.",
+   "verse_ref": "Kejadian 37:7-9",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "hills",
+   "elements": [
+    "moon"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "arms_open"
+    }
+   ],
+   "action": "light_shine",
+   "camera": "zoom_out"
+  },
+  {
+   "narration": "Ketika Yusuf datang ke padang, <tense> mereka melemparkannya ke dalam sumur yang kering.",
+   "on_screen_text": "Ketika Yusuf datang ke padang, mereka melemparkannya ke dalam sumur yang kering.",
+   "verse_ref": "Kejadian 37:18-24",
+   "highlight_words": [],
+   "sky": "fire",
+   "terrain": "desert",
+   "elements": [
+    "well"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "left",
+     "props": [],
+     "pose": "raise_arm"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center_left",
+     "props": [],
+     "pose": "raise_arm"
+    },
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "right",
+     "props": [],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Lalu mereka menjualnya seharga dua puluh keping perak <serious> kepada pedagang yang menuju Mesir.",
+   "on_screen_text": "Lalu mereka menjualnya seharga dua puluh keping perak kepada pedagang yang menuju Mesir.",
+   "verse_ref": "Kejadian 37:28",
+   "highlight_words": [
+    "perak"
+   ],
+   "sky": "golden",
+   "terrain": "desert",
+   "elements": [
+    "camels"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "medium",
+     "position": "center",
+     "props": [],
+     "pose": "walk"
+    }
+   ],
+   "action": "walk_in",
+   "camera": "pan_right"
+  },
+  {
+   "narration": "Mereka membawa jubah Yusuf yang berlumuran darah kepada ayahnya. <slow> Yakub berkabung lama sekali.",
+   "on_screen_text": "Mereka membawa jubah Yusuf yang berlumuran darah kepada ayahnya. Yakub berkabung lama sekali.",
+   "verse_ref": "Kejadian 37:31-35",
+   "highlight_words": [],
+   "sky": "night",
+   "terrain": "interior",
+   "elements": [],
+   "characters": [
+    {
+     "role": "elder",
+     "size": "medium",
+     "position": "center",
+     "props": [
+      "staff"
+     ],
+     "pose": "kneel"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_in"
+  },
+  {
+   "narration": "Rasa iri bisa merusak hati dan keluarga. <hopeful> Namun kisah Yusuf belum selesai. <warm> Ikuti untuk kisah berikutnya.",
+   "on_screen_text": "Rasa iri bisa merusak hati. Namun kisah Yusuf belum selesai.",
+   "verse_ref": "",
+   "highlight_words": [
+    "iri"
+   ],
+   "sky": "heaven",
+   "terrain": "hills",
+   "elements": [
+    "rays"
+   ],
+   "characters": [
+    {
+     "role": "hero",
+     "size": "small",
+     "position": "center",
+     "props": [],
+     "pose": "raise_arm"
+    }
+   ],
+   "action": "none",
+   "camera": "zoom_out"
+  }
+ ],
+ "cta": "Ikuti untuk kisah Alkitab setiap hari"
+}
