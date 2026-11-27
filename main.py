@@ -94,9 +94,10 @@ def run(dry_run=False, mock=False, story_index=None, mock_audio_dir=None):
             result = assemble.build(script, voices, out_dir, final_name=f"{slug}.mp4", seed=idx)
             break
         except ValueError as e:
+            if mock or os.path.exists(pre):
+                # never throw away a hand-written script (and never spend TTS quota twice on it)
+                raise RuntimeError(f"{e}. Naskah {os.path.basename(pre)} perlu dipersingkat, atau naikkan variable MAX_TEMPO.")
             print("⚠️ ", e, "- naskah akan dipersingkat")
-            if mock:
-                raise
     if result is None:
         raise RuntimeError("Video stays longer than 60 seconds after 3 attempts")
     print(f"🎬 Video: {result['path']} ({result['duration']} detik, tempo x{result['tempo']})")

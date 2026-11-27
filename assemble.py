@@ -5,7 +5,8 @@ import numpy as np
 import renderer
 
 SR = 44100
-LEAD, TAIL, END_HOLD = 0.2, 0.2, 0.5
+LEAD, TAIL, END_HOLD = 0.15, 0.15, 0.5
+MAX_TEMPO = float(os.environ.get("MAX_TEMPO", "1.3"))
 MAX_TOTAL = float(os.environ.get("MAX_VIDEO_SECONDS", "59.3"))
 
 
@@ -18,7 +19,7 @@ def _read_mono(path):
     return a, 24000
 
 
-def tighten(path, out_wav, max_pause=0.42):
+def tighten(path, out_wav, max_pause=0.36):
     """Trim edges and shorten long internal pauses. Returns seconds."""
     a, sr = _read_mono(path)
     win = int(0.02 * sr)
@@ -118,7 +119,7 @@ def build(script, voice_paths, out_dir, final_name="final.mp4", seed=1):
     speech = sum(dur(p) for p in tight)
     budget = MAX_TOTAL - n * (LEAD + TAIL) - END_HOLD
     tempo = max(1.0, speech / budget)
-    if tempo > 1.2:
+    if tempo > MAX_TEMPO:
         raise ValueError(f"narration too long ({speech:.1f}s for a {budget:.1f}s budget)")
     final_voice = []
     for i, p in enumerate(tight):

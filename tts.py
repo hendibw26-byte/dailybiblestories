@@ -3,7 +3,7 @@ import base64, os, subprocess, time, wave
 import requests
 
 API = "https://generativelanguage.googleapis.com/v1beta/interactions"
-DEFAULT_STYLE = ("Warm, deep male storyteller voice. Calm and reverent, slightly slow pace, "
+DEFAULT_STYLE = ("Warm, deep male storyteller voice. Calm and reverent, at a natural, moderate pace (not slow), "
                  "like narrating a Bible story for a short film. Speak in standard Indonesian, "
                  "the way an Indonesian Christian pastor reads the Bible in church. "
                  "Pronounce every Indonesian word with plain Indonesian vowels, never with an Arabic accent.")
@@ -44,16 +44,18 @@ def synth(text, out_path, api_key, voice=None, style=None, model=None):
     models = [model or os.environ.get("TTS_MODEL", "gemini-3.8-flash-tts"), "gemini-3.1-flash-tts-preview"]
     last = None
     for m in models:
-        body = {"model": m,
-                "input": [{"type": "user_input", "content": [{"type": "text", "text": text,
-                                                               "annotations": [{"type": "speech_metadata", "style": style}]}]}],
-                "response_format": {"type": "audio"},
-                "generation_config": {"speech_config": [{"voice": voice}]}}
+        inline_style = False
         for attempt in range(6):
+            if inline_style:   # models without speech_metadata: plain text only (a style prefix could be read aloud)
+                content = [{"type": "text", "text": text}]
+            else:
+                content = [{"type": "text", "text": text, "annotations": [{"type": "speech_metadata", "style": style}]}]
+            body = {"model": m, "input": [{"type": "user_input", "content": content}],
+                    "response_format": {"type": "audio"},
+                    "generation_config": {"speech_config": [{"voice": voice}]}}
             r = requests.post(API, headers={"x-goog-api-key": api_key, "Content-Type": "application/json"}, json=body, timeout=180)
             if r.status_code == 200:
                 data, mime = _extract_audio(r.json())
-                raw = out_path + ".raw"
                 if data[:4] == b"RIFF":
                     open(out_path, "wb").write(data)
                 else:  # headerless 16-bit PCM, 24 kHz mono
@@ -61,6 +63,9 @@ def synth(text, out_path, api_key, voice=None, style=None, model=None):
                         w.setnchannels(1); w.setsampwidth(2); w.setframerate(24000); w.writeframes(data)
                 return out_path
             last = f"{m}: HTTP {r.status_code} {r.text[:400]}"
+            if r.status_code == 400 and "speech metadata" in r.text.lower() and not inline_style:
+                inline_style = True
+                continue
             quota = r.status_code == 429 and ("quota" in r.text.lower() or "exceeded" in r.text.lower())
             print(f"   ⚠️ TTS {m}: HTTP {r.status_code}{' (kuota habis)' if quota else ''}", flush=True)
             if r.status_code in (400, 403, 404) or quota:
