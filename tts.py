@@ -31,7 +31,7 @@ def synth(text, out_path, api_key, voice=None, style=None, model=None):
                                                                "annotations": [{"type": "speech_metadata", "style": style}]}]}],
                 "response_format": {"type": "audio"},
                 "generation_config": {"speech_config": [{"voice": voice}]}}
-        for attempt in range(4):
+        for attempt in range(6):
             r = requests.post(API, headers={"x-goog-api-key": api_key, "Content-Type": "application/json"}, json=body, timeout=180)
             if r.status_code == 200:
                 data, mime = _extract_audio(r.json())
@@ -45,7 +45,7 @@ def synth(text, out_path, api_key, voice=None, style=None, model=None):
             last = f"{m}: HTTP {r.status_code} {r.text[:400]}"
             if r.status_code in (400, 403, 404):
                 break
-            time.sleep(8 * (attempt + 1))
+            time.sleep(15 * (attempt + 1))
     raise RuntimeError(f"TTS failed: {last}")
 
 

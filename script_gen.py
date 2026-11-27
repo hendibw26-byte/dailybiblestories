@@ -61,22 +61,28 @@ KELUARKAN HANYA JSON dengan bentuk:
 
 
 def call_gemini(prompt, api_key, model=None, temperature=0.8):
-    models = [model or os.environ.get("GEMINI_TEXT_MODEL", "gemini-3.8-flash"), "gemini-3.8-flash"]
+    first = model or os.environ.get("GEMINI_TEXT_MODEL", "gemini-3.8-flash")
+    extra = os.environ.get("GEMINI_TEXT_FALLBACKS", "gemini-flash-latest,gemini-flash-lite-latest")
+    models = [first] + [m.strip() for m in extra.split(",") if m.strip() and m.strip() != first]
     last = None
-    for m in models:
-        for attempt in range(3):
-            r = requests.post(API.format(model=m), headers={"x-goog-api-key": api_key, "Content-Type": "application/json"},
-                              json={"systemInstruction": {"parts": [{"text": SYSTEM}]},
-                                    "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                                    "generationConfig": {"responseMimeType": "application/json", "temperature": temperature}},
-                              timeout=120)
-            if r.status_code == 200:
-                parts = r.json()["candidates"][0]["content"]["parts"]
-                return "".join(p.get("text", "") for p in parts)
-            last = f"{m}: HTTP {r.status_code} {r.text[:300]}"
-            if r.status_code in (400, 403, 404):
-                break
-            time.sleep(5 * (attempt + 1))
+    for rnd in range(3):                      # up to 3 rounds over all models
+        for m in models:
+            for attempt in range(3):
+                r = requests.post(API.format(model=m), headers={"x-goog-api-key": api_key, "Content-Type": "application/json"},
+                                  json={"systemInstruction": {"parts": [{"text": SYSTEM}]},
+                                        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                                        "generationConfig": {"responseMimeType": "application/json", "temperature": temperature}},
+                                  timeout=180)
+                if r.status_code == 200:
+                    parts = r.json()["candidates"][0]["content"]["parts"]
+                    print(f"   naskah ditulis oleh {m}", flush=True)
+                    return "".join(p.get("text", "") for p in parts if not p.get("thought"))
+                last = f"{m}: HTTP {r.status_code} {r.text[:300]}"
+                print(f"   ⚠️ {m}: HTTP {r.status_code}, mencoba lagi…", flush=True)
+                if r.status_code in (400, 403, 404):
+                    break                     # this model is not usable, try the next one
+                time.sleep(20 * (attempt + 1))
+        time.sleep(60)                        # high demand: wait a minute, then another round
     raise RuntimeError(f"Gemini text generation failed: {last}")
 
 
