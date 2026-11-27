@@ -127,7 +127,12 @@ def post_existing(src_dir):
     import glob, publish, script_gen
     today = dt.datetime.now(dt.timezone(dt.timedelta(hours=7))).strftime("%Y-%m-%d")
     st = load_state()
-    if any(h.get("date") == today for h in st["history"]):
+    repost = os.environ.get("REPOST_PLATFORMS", "").strip()
+    if repost:   # post again only to the platforms that failed; story counter is not advanced
+        os.environ["PLATFORMS"] = repost
+        os.environ["SKIP_RELEASE"] = "1"
+        print(f"🔁 Posting ulang hanya ke: {repost}")
+    elif any(h.get("date") == today for h in st["history"]):
         print(f"✅ Hari ini ({today}) sudah ada video yang diposting. Dilewati.")
         return None
     vids = sorted(glob.glob(os.path.join(src_dir, "**", "*.mp4"), recursive=True))
@@ -141,6 +146,11 @@ def post_existing(src_dir):
     import subprocess
     d = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", video]))
     publish.post_report(publish.build_report(script, res, today, d))
+    if repost and any(h.get("date") == today for h in st["history"]):
+        errors = [p for p, r in res.items() if isinstance(r, str) and r.startswith("ERROR")]
+        if errors:
+            raise RuntimeError(f"Posting gagal di: {', '.join(errors)}")
+        return res
     st["next_index"] = st["next_index"] + 1
     st["history"].append({"date": today, "title": script["title"], "reference": script["reference"]})
     st["history"] = st["history"][-120:]

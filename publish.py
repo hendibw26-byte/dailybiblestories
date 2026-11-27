@@ -91,10 +91,11 @@ def instagram_reel(video, text):
     c = _check(requests.post(f"{GRAPH}/{ig}/media", params={"upload_type": "resumable"},
                              data={"media_type": "REELS", "caption": text, "access_token": token}, timeout=60), "IG container")
     cid = c["id"]
+    up_url = c.get("uri") or f"{RUPLOAD}/ig-api-upload/{GRAPH_VER}/{cid}"   # use the upload address Meta returns
     size = os.path.getsize(video)
-    with open(video, "rb") as f:
-        _check(requests.post(f"{RUPLOAD}/ig-api-upload/{GRAPH_VER}/{cid}", headers={**auth, "offset": "0", "file_size": str(size)},
-                             data=f, timeout=600), "IG upload")
+    data = open(video, "rb").read()
+    _check(requests.post(up_url, headers={**auth, "offset": "0", "file_size": str(size),
+                                          "Content-Type": "application/octet-stream"}, data=data, timeout=600), "IG upload")
     for _ in range(60):  # up to ~10 minutes of processing
         s = _check(requests.get(f"{GRAPH}/{cid}", params={"fields": "status_code,status", "access_token": token}, timeout=60), "IG status")
         code = s.get("status_code")
@@ -153,10 +154,13 @@ def publish_all(script, video, tag):
     t = build_texts(script)
     platforms = [p.strip() for p in os.environ.get("PLATFORMS", "facebook,instagram,youtube").split(",") if p.strip()]
     results = {}
-    try:
-        results["tiktok_manual"] = github_release(video, tag, f"{script['title']} ({tag})", t["tiktok"])
-    except Exception as e:
-        results["tiktok_manual"] = f"ERROR: {e}"
+    if os.environ.get("SKIP_RELEASE"):
+        pass
+    else:
+        try:
+            results["tiktok_manual"] = github_release(video, tag, f"{script['title']} ({tag})", t["tiktok"])
+        except Exception as e:
+            results["tiktok_manual"] = f"ERROR: {e}"
     wait_until_post_time()
     jobs = {"facebook": lambda: facebook_reel(video, t["facebook"], script["title"]),
             "instagram": lambda: instagram_reel(video, t["instagram"]),
