@@ -87,6 +87,7 @@ def instagram_user_id():
 def _ig_wait_and_publish(ig, cid, token):
     for _ in range(60):  # up to ~10 minutes of processing
         s = _check(requests.get(f"{GRAPH}/{cid}", params={"fields": "status_code,status", "access_token": token}, timeout=60), "IG status")
+        print(f"      status Instagram: {s.get('status_code')} {s.get('status', '')}", flush=True)
         code = s.get("status_code")
         if code in ("FINISHED", "PUBLISHED"):
             break
@@ -97,8 +98,9 @@ def _ig_wait_and_publish(ig, cid, token):
 
 
 def _ig_resumable(ig, video, text, token):
-    c = _check(requests.post(f"{GRAPH}/{ig}/media", params={"upload_type": "resumable"},
-                             data={"media_type": "REELS", "caption": text, "access_token": token}, timeout=60), "IG container")
+    c = _check(requests.post(f"{GRAPH}/{ig}/media",
+                             data={"media_type": "REELS", "upload_type": "resumable", "caption": text,
+                                   "share_to_feed": "true", "access_token": token}, timeout=60), "IG container")
     cid = c["id"]
     up_url = c.get("uri") or f"{RUPLOAD}/ig-api-upload/{GRAPH_VER}/{cid}"
     data = open(video, "rb").read()
@@ -142,14 +144,14 @@ def instagram_reel(video, text, fb_video_id=None):
     """Tries up to 3 rounds (Instagram's 'Media upload has failed' errors are often temporary)."""
     video = _ig_copy(video)
     last = None
-    for rnd in range(3):
+    for rnd in range(2):
         try:
             return _instagram_once(video, text, fb_video_id)
         except Exception as e:
             last = e
-            if rnd < 2:
-                print(f"   ⏳ Instagram gagal (percobaan {rnd + 1}/3), mencoba lagi 3 menit lagi…", flush=True)
-                time.sleep(180)
+            if rnd < 1:
+                print(f"   ⏳ Instagram gagal (percobaan {rnd + 1}/2), mencoba lagi 2 menit lagi…", flush=True)
+                time.sleep(120)
     raise last
 
 
@@ -157,9 +159,10 @@ def _instagram_once(video, text, fb_video_id=None):
     """Three ways, in order: direct upload with the Page token, with the User token (if saved),
     then letting Instagram fetch the copy already on the Facebook Page."""
     ig = instagram_user_id()
-    tokens = [("Page", env("META_PAGE_TOKEN"))]
+    tokens = []
     if env("META_USER_TOKEN", required=False):
         tokens.append(("User", env("META_USER_TOKEN", required=False)))
+    tokens.append(("Page", env("META_PAGE_TOKEN")))
     errors = []
     for name, tok in tokens:
         try:
