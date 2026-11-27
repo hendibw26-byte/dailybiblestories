@@ -18,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: kisah-alkitab-harian
@@ -75,6 +76,13 @@ jobs:
           path: output/
           retention-days: 14
           if-no-files-found: ignore
+
+      - name: Laporan jika gagal
+        if: failure() && env.MODE == 'daily'
+        run: |
+          NUM=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "Laporan Harian Posting in:title" --json number --jq '.[0].number')
+          MSG="### $(TZ=Asia/Jakarta date +%F) · ❌ Proses harian gagal\n\nVideo hari ini belum terposting. [Lihat detail & klik Re-run]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)"
+          if [ -n "$NUM" ]; then gh issue comment "$NUM" --repo "$GITHUB_REPOSITORY" --body "$(printf "$MSG")"; fi
 
       - name: Simpan progres kisah
         if: success() && env.MODE == 'daily'
