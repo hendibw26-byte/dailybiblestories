@@ -4,7 +4,24 @@ import requests
 
 API = "https://generativelanguage.googleapis.com/v1beta/interactions"
 DEFAULT_STYLE = ("Warm, deep male storyteller voice. Calm and reverent, slightly slow pace, "
-                 "like narrating a Bible story for a short film. Speak in standard Indonesian.")
+                 "like narrating a Bible story for a short film. Speak in standard Indonesian, "
+                 "the way an Indonesian Christian pastor reads the Bible in church. "
+                 "Pronounce every Indonesian word with plain Indonesian vowels, never with an Arabic accent.")
+
+PRON_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "pronunciation.json")
+
+
+def fix_pronunciation(text):
+    """Respell words only in what Riko reads (on-screen text is untouched). Keeps suffixes: Allahmu -> Alahmu."""
+    import json, re
+    try:
+        table = json.load(open(PRON_FILE)).get("ganti", {})
+    except Exception:
+        table = {}
+    for word, spoken in table.items():
+        if word and spoken and word != spoken:
+            text = re.sub(r"\b" + re.escape(word), spoken, text)
+    return text
 
 
 def _extract_audio(js):
@@ -21,6 +38,7 @@ def _extract_audio(js):
 
 
 def synth(text, out_path, api_key, voice=None, style=None, model=None):
+    text = fix_pronunciation(text)
     voice = voice or os.environ.get("TTS_VOICE", "Riko")
     style = style or os.environ.get("TTS_STYLE", DEFAULT_STYLE)
     models = [model or os.environ.get("TTS_MODEL", "gemini-3.8-flash-tts"), "gemini-3.1-flash-tts-preview"]
