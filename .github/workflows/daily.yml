@@ -7,10 +7,18 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "check = cek semua kunci | dry-run = buat video tanpa posting | daily = buat & posting"
+        description: "check = cek kunci | dry-run = buat video tanpa posting | daily = buat & posting | posting-video-jadi = posting video dari run sebelumnya"
         type: choice
-        options: [check, dry-run, daily]
+        options: [check, dry-run, daily, posting-video-jadi]
         default: dry-run
+      run_id:
+        description: "Untuk posting-video-jadi: nomor ID run dry-run (angka panjang di link run tersebut)"
+        required: false
+        default: ""
+      post_now:
+        description: "Posting sekarang juga (tidak menunggu jam 20.00)"
+        type: boolean
+        default: false
       story_index:
         description: "Opsional: nomor urut kisah (0 = kisah pertama di data/stories.json)"
         required: false
@@ -19,6 +27,7 @@ on:
 permissions:
   contents: write
   issues: write
+  actions: read
 
 concurrency:
   group: kisah-alkitab-harian
@@ -47,6 +56,8 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       MODE: ${{ github.event.inputs.mode || 'daily' }}
       STORY_INDEX: ${{ github.event.inputs.story_index || '' }}
+      RUN_ID: ${{ github.event.inputs.run_id || '' }}
+      POST_NOW: ${{ github.event.inputs.post_now || 'false' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -65,11 +76,14 @@ jobs:
           case "$MODE" in
             check)   python main.py --check ;;
             dry-run) python main.py --dry-run --story-index "$STORY_INDEX" ;;
+            posting-video-jadi)
+                     gh run download "$RUN_ID" --repo "$GITHUB_REPOSITORY" -D previous_run
+                     python main.py --from-dir previous_run ;;
             *)       python main.py --story-index "$STORY_INDEX" ;;
           esac
 
       - name: Simpan video & naskah (Artifacts)
-        if: always() && env.MODE != 'check'
+        if: always() && (env.MODE == 'dry-run' || env.MODE == 'daily')
         uses: actions/upload-artifact@v4
         with:
           name: video-${{ github.run_id }}
@@ -78,14 +92,14 @@ jobs:
           if-no-files-found: ignore
 
       - name: Laporan jika gagal
-        if: failure() && env.MODE == 'daily'
+        if: failure() && (env.MODE == 'daily' || env.MODE == 'posting-video-jadi')
         run: |
           NUM=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "Laporan Harian Posting in:title" --json number --jq '.[0].number')
           MSG="### $(TZ=Asia/Jakarta date +%F) · ❌ Proses harian gagal\n\nVideo hari ini belum terposting. [Lihat detail & klik Re-run]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)"
           if [ -n "$NUM" ]; then gh issue comment "$NUM" --repo "$GITHUB_REPOSITORY" --body "$(printf "$MSG")"; fi
 
       - name: Simpan progres kisah
-        if: success() && env.MODE == 'daily'
+        if: success() && (env.MODE == 'daily' || env.MODE == 'posting-video-jadi')
         run: |
           git config user.name "kisah-alkitab-bot"
           git config user.email "actions@users.noreply.github.com"
