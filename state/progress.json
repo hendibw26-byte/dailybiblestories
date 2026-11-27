@@ -1,4 +1,10 @@
 {
-  "next_index": 0,
-  "history": []
+  "next_index": 1,
+  "history": [
+    {
+      "date": "2026-11-27",
+      "title": "Penciptaan Dunia",
+      "reference": "Kejadian 1-2"
+    }
+  ]
 }
