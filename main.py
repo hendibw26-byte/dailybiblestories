@@ -105,6 +105,7 @@ def run(dry_run=False, mock=False, story_index=None, mock_audio_dir=None):
         import publish
         report["publish"] = publish.publish_all(script, result["path"], f"kisah-{today}")
         print("📤 Hasil posting:", json.dumps(report["publish"], ensure_ascii=False, indent=2))
+        publish.post_report(publish.build_report(script, report["publish"], today, result["duration"]))
         st["next_index"] = idx + 1
         st["history"].append({"date": today, "title": script["title"], "reference": script["reference"]})
         st["history"] = st["history"][-120:]

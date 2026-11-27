@@ -171,6 +171,74 @@ def publish_all(script, video, tag):
     return results
 
 
+REPORT_TITLE = "📅 Laporan Harian Posting"
+
+
+def _permalink_ig(media_id):
+    try:
+        js = requests.get(f"{GRAPH}/{media_id}", params={"fields": "permalink", "access_token": env("META_PAGE_TOKEN")}, timeout=60).json()
+        return js.get("permalink")
+    except Exception:
+        return None
+
+
+def build_report(script, results, date, video_duration=None):
+    def cell(p):
+        r = results.get(p)
+        if r is None:
+            return "—", "tidak dijadwalkan"
+        if isinstance(r, str):
+            return ("❌", r[:180].replace("|", "/")) if r.startswith("ERROR") else ("➖", r[:120])
+        if p == "facebook":
+            return "✅", f"[Lihat Reel](https://www.facebook.com/reel/{r.get('video_id')})"
+        if p == "instagram":
+            link = _permalink_ig(r.get("id")) if r.get("id") else None
+            return "✅", f"[Lihat Reel]({link})" if link else "terposting"
+        if p == "youtube":
+            extra = " (privat: ubah ke Publik di YouTube Studio)" if r.get("privacy") == "private" else ""
+            return "✅", f"[Lihat Short]({r.get('url')}){extra}"
+        return "✅", ""
+    rows = []
+    for p, name in (("facebook", "Facebook"), ("instagram", "Instagram"), ("youtube", "YouTube Shorts")):
+        s, d = cell(p)
+        rows.append(f"| {name} | {s} | {d} |")
+    tk = results.get("tiktok_manual")
+    rows.append(f"| TikTok (manual) | 📥 | [Download video & caption]({tk}) |" if isinstance(tk, str) and tk.startswith("http")
+                else "| TikTok (manual) | ➖ | release tidak dibuat |")
+    run = ""
+    if os.environ.get("GITHUB_RUN_ID"):
+        run = f"\n\n[Detail proses]({os.environ.get('GITHUB_SERVER_URL', 'https://github.com')}/{os.environ.get('GITHUB_REPOSITORY')}/actions/runs/{os.environ['GITHUB_RUN_ID']})"
+    dur = f" · {video_duration:.0f} detik" if video_duration else ""
+    return (f"### {date} · {script['title']} ({script['reference']}){dur}\n\n"
+            "| Platform | Status | Link |\n|---|---|---|\n" + "\n".join(rows) + run)
+
+
+def post_report(body):
+    """Adds the day's report as a comment on one pinned issue: a daily log the user is notified about."""
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    if not repo:
+        print(body)
+        return None
+    try:
+        out = subprocess.run(["gh", "issue", "list", "--repo", repo, "--state", "open", "--search", REPORT_TITLE + " in:title",
+                              "--json", "number,title"], check=True, capture_output=True, text=True).stdout
+        found = [i for i in json.loads(out or "[]") if i["title"] == REPORT_TITLE]
+        if found:
+            num = str(found[0]["number"])
+        else:
+            url = subprocess.run(["gh", "issue", "create", "--repo", repo, "--title", REPORT_TITLE, "--body",
+                                  "Setiap hari setelah posting, laporan hasilnya ditambahkan sebagai komentar di sini.\n"
+                                  "Klik **Subscribe** (kanan) supaya mendapat email setiap ada laporan baru."],
+                                 check=True, capture_output=True, text=True).stdout.strip()
+            num = url.rstrip("/").split("/")[-1]
+            subprocess.run(["gh", "issue", "pin", num, "--repo", repo], capture_output=True)
+        subprocess.run(["gh", "issue", "comment", num, "--repo", repo, "--body", body], check=True)
+        return num
+    except Exception as e:
+        print("⚠️  Gagal menulis laporan harian:", e)
+        return None
+
+
 def check_connections():
     ok = True
     try:

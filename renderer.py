@@ -355,6 +355,8 @@ def build_scene(sc, idx, total, meta):
     if terrain == "interior":
         P = dict(INTERIOR)
     els = set(sc.get("elements", []))
+    if idx == 0:
+        els.discard("moon")  # keep the title card clear
     seed = zlib.crc32(f"{meta.get('title', '')}{idx}".encode()) & 0xffff
     gy = GROUND.get(terrain, 1780)
     layers = []
