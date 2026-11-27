@@ -19,6 +19,10 @@ on:
         description: "Untuk posting-video-jadi: isi hanya kalau mau posting ULANG ke platform yang gagal, mis. facebook,instagram"
         required: false
         default: ""
+      fb_video_id:
+        description: "Opsional: ID video Facebook yang sudah tayang (dipakai Instagram sebagai sumber video)"
+        required: false
+        default: ""
       post_now:
         description: "Posting sekarang juga (tidak menunggu jam 20.00)"
         type: boolean
@@ -63,6 +67,8 @@ jobs:
       RUN_ID: ${{ github.event.inputs.run_id || '' }}
       POST_NOW: ${{ github.event.inputs.post_now || 'false' }}
       REPOST_PLATFORMS: ${{ github.event.inputs.platform_ulang || '' }}
+      FB_VIDEO_ID: ${{ github.event.inputs.fb_video_id || '' }}
+      META_USER_TOKEN: ${{ secrets.META_USER_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
