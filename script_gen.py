@@ -61,7 +61,7 @@ KELUARKAN HANYA JSON dengan bentuk:
 
 
 def call_gemini(prompt, api_key, model=None, temperature=0.8):
-    models = [model or os.environ.get("GEMINI_TEXT_MODEL", "gemini-flash-latest"), "gemini-2.5-flash"]
+    models = [model or os.environ.get("GEMINI_TEXT_MODEL", "gemini-3.8-flash"), "gemini-3.8-flash"]
     last = None
     for m in models:
         for attempt in range(3):
