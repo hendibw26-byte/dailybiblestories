@@ -84,18 +84,7 @@ def instagram_user_id():
     return js["instagram_business_account"]["id"]
 
 
-def instagram_reel(video, text):
-    token = env("META_PAGE_TOKEN")
-    ig = instagram_user_id()
-    auth = {"Authorization": f"OAuth {token}"}
-    c = _check(requests.post(f"{GRAPH}/{ig}/media", params={"upload_type": "resumable"},
-                             data={"media_type": "REELS", "caption": text, "access_token": token}, timeout=60), "IG container")
-    cid = c["id"]
-    up_url = c.get("uri") or f"{RUPLOAD}/ig-api-upload/{GRAPH_VER}/{cid}"   # use the upload address Meta returns
-    size = os.path.getsize(video)
-    data = open(video, "rb").read()
-    _check(requests.post(up_url, headers={**auth, "offset": "0", "file_size": str(size),
-                                          "Content-Type": "application/octet-stream"}, data=data, timeout=600), "IG upload")
+def _ig_wait_and_publish(ig, cid, token):
     for _ in range(60):  # up to ~10 minutes of processing
         s = _check(requests.get(f"{GRAPH}/{cid}", params={"fields": "status_code,status", "access_token": token}, timeout=60), "IG status")
         code = s.get("status_code")
@@ -104,8 +93,62 @@ def instagram_reel(video, text):
         if code in ("ERROR", "EXPIRED"):
             raise RuntimeError(f"IG processing {code}: {s.get('status')}")
         time.sleep(10)
-    res = _check(requests.post(f"{GRAPH}/{ig}/media_publish", data={"creation_id": cid, "access_token": token}, timeout=120), "IG publish")
-    return {"container": cid, **res}
+    return _check(requests.post(f"{GRAPH}/{ig}/media_publish", data={"creation_id": cid, "access_token": token}, timeout=120), "IG publish")
+
+
+def _ig_resumable(ig, video, text, token):
+    c = _check(requests.post(f"{GRAPH}/{ig}/media", params={"upload_type": "resumable"},
+                             data={"media_type": "REELS", "caption": text, "access_token": token}, timeout=60), "IG container")
+    cid = c["id"]
+    up_url = c.get("uri") or f"{RUPLOAD}/ig-api-upload/{GRAPH_VER}/{cid}"
+    data = open(video, "rb").read()
+    _check(requests.post(up_url, headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(len(data))},
+                         data=data, timeout=600), "IG upload")
+    return {"container": cid, **_ig_wait_and_publish(ig, cid, token)}
+
+
+def _fb_video_source(video_id):
+    """Public CDN address of the video already uploaded to the Facebook Page (Instagram can fetch it)."""
+    for _ in range(30):  # Facebook needs a moment to process the upload
+        js = requests.get(f"{GRAPH}/{video_id}", params={"fields": "source,status", "access_token": env("META_PAGE_TOKEN")}, timeout=60).json()
+        if js.get("source"):
+            return js["source"]
+        time.sleep(10)
+    return None
+
+
+def _ig_from_url(ig, url, text, token):
+    c = _check(requests.post(f"{GRAPH}/{ig}/media", data={"media_type": "REELS", "video_url": url, "caption": text,
+                                                         "share_to_feed": "true", "access_token": token}, timeout=60), "IG container(url)")
+    return {"container": c["id"], **_ig_wait_and_publish(ig, c["id"], token)}
+
+
+def instagram_reel(video, text, fb_video_id=None):
+    """Three ways, in order: direct upload with the Page token, with the User token (if saved),
+    then letting Instagram fetch the copy already on the Facebook Page."""
+    ig = instagram_user_id()
+    tokens = [("Page", env("META_PAGE_TOKEN"))]
+    if env("META_USER_TOKEN", required=False):
+        tokens.append(("User", env("META_USER_TOKEN", required=False)))
+    errors = []
+    for name, tok in tokens:
+        try:
+            return _ig_resumable(ig, video, text, tok)
+        except Exception as e:
+            errors.append(f"upload({name}): {e}")
+            print(f"   ⚠️ Instagram upload langsung ({name} token) gagal, mencoba cara lain…", flush=True)
+    if fb_video_id:
+        src = _fb_video_source(fb_video_id)
+        if src:
+            for name, tok in tokens:
+                try:
+                    print("   🔁 Instagram mengambil video dari salinan di Facebook…", flush=True)
+                    return _ig_from_url(ig, src, text, tok)
+                except Exception as e:
+                    errors.append(f"url({name}): {e}")
+        else:
+            errors.append("video Facebook belum punya alamat sumber")
+    raise RuntimeError(" | ".join(errors)[:900])
 
 
 # ------------------------------------------------------------------ YouTube
@@ -163,13 +206,18 @@ def publish_all(script, video, tag):
             results["tiktok_manual"] = f"ERROR: {e}"
     wait_until_post_time()
     jobs = {"facebook": lambda: facebook_reel(video, t["facebook"], script["title"]),
-            "instagram": lambda: instagram_reel(video, t["instagram"]),
+            "instagram": lambda: instagram_reel(video, t["instagram"], fb_vid.get("id")),
             "youtube": lambda: youtube_short(video, t["youtube_title"], t["youtube_desc"], script["hashtags"])}
+    fb_vid = {}
+    if os.environ.get("FB_VIDEO_ID"):
+        fb_vid["id"] = os.environ["FB_VIDEO_ID"]
     for p in platforms:
         if p not in jobs:
             continue
         try:
             results[p] = jobs[p]()
+            if p == "facebook" and isinstance(results[p], dict):
+                fb_vid["id"] = results[p].get("video_id")
             print(f"✅ {p}: berhasil", flush=True)
         except Exception as e:  # one platform failing must not block the others
             results[p] = f"ERROR: {e}"
