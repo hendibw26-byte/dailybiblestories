@@ -68,25 +68,26 @@ def run(dry_run=False, mock=False, story_index=None, mock_audio_dir=None):
     key = os.environ.get("GEMINI_API_KEY", "")
     result = None
     for attempt in range(3):
-        if mock:
+        pre = os.path.join(ROOT, "data", "scripts", f"{idx + 1:03d}.json")
+        if attempt == 0 and not mock and os.path.exists(pre):
+            script = script_gen.normalize(json.load(open(pre)))
+            print("📄 Memakai naskah siap pakai:", os.path.relpath(pre, ROOT))
+        elif mock:
             script = script_gen.normalize(json.load(open(os.environ.get("MOCK_SCRIPT", os.path.join(ROOT, "samples", "sample_script.json")))))
         else:
             script = script_gen.generate(story, key, [h["title"] for h in st["history"]],
                                          max_words=105 if attempt else 115)
         json.dump(script, open(os.path.join(out_dir, "script.json"), "w"), ensure_ascii=False, indent=2)
         print("📝 Naskah:", script["title"], "-", script_gen.word_count(script), "kata")
-        voices = []
-        for i, sc in enumerate(script["scenes"]):
-            p = os.path.join(out_dir, f"voice_{i + 1}.wav")
-            if mock:
+        if mock:
+            voices = []
+            for i, sc in enumerate(script["scenes"]):
+                p = os.path.join(out_dir, f"voice_{i + 1}.wav")
                 src = os.path.join(mock_audio_dir, f"s{i + 1}.wav") if mock_audio_dir else None
-                if src and os.path.exists(src):
-                    voices.append(src)
-                else:
-                    voices.append(silent_voice(sc["narration"], p))
-            else:
-                import tts
-                voices.append(tts.synth(sc["narration"], p, key))
+                voices.append(src if src and os.path.exists(src) else silent_voice(sc["narration"], p))
+        else:
+            import tts
+            voices = tts.narrate_all(script, out_dir, key)
         print("🎙️  Narasi selesai")
         slug = f"kisah-{today}"
         try:

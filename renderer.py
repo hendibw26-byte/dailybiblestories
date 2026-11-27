@@ -284,7 +284,7 @@ def caption_img(text, ref=None, gold_words=(), size=54):
     im = Image.new("RGBA", (W, th + 120), (0, 0, 0, 0))
     ImageDraw.Draw(im).rounded_rectangle([60, 20, W - 60, th + 95], radius=36, fill=(10, 8, 6, 120))
     txt = Image.new("RGBA", im.size, (0, 0, 0, 0)); td = ImageDraw.Draw(txt)
-    gw = {g.lower() for g in gold_words}
+    gw = {g.strip('.,“”"!?—:;').lower() for g in gold_words}
     y = 55
     for ln in lines:
         x = (W - td.textlength(ln, font=font)) / 2

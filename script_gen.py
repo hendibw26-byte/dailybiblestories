@@ -61,6 +61,32 @@ KELUARKAN HANYA JSON dengan bentuk:
 
 
 GROQ_API = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_PREF = ["llama-3.3-70b", "gpt-oss-120b", "llama-4-maverick", "llama-4-scout", "qwen", "kimi", "gpt-oss-20b", "llama"]
+GROQ_SKIP = ("guard", "whisper", "tts", "orpheus", "prompt", "playai", "allam", "compound", "embed")
+
+
+def extract_json(text):
+    t = text.strip()
+    if t.startswith("```"):
+        t = re.sub(r"^```[a-zA-Z]*", "", t).rstrip("`").strip()
+    i, j = t.find("{"), t.rfind("}")
+    return t[i:j + 1] if i >= 0 and j > i else t
+
+
+def groq_models(key):
+    wanted = [m.strip() for m in os.environ.get("GROQ_MODELS", "").split(",") if m.strip()]
+    try:
+        r = requests.get("https://api.groq.com/openai/v1/models", headers={"Authorization": f"Bearer {key}"}, timeout=60)
+        avail = [m["id"] for m in r.json().get("data", [])] if r.status_code == 200 else []
+    except Exception:
+        avail = []
+    if not avail:
+        return wanted
+    avail = [m for m in avail if not any(x in m.lower() for x in GROQ_SKIP)]
+    ordered = [m for m in wanted if m in avail]
+    for p in GROQ_PREF:
+        ordered += [m for m in avail if p in m.lower() and m not in ordered]
+    return ordered[:4]
 
 
 def _gemini_once(m, prompt, api_key, temperature):
@@ -76,29 +102,31 @@ def _gemini_once(m, prompt, api_key, temperature):
 
 
 def _groq_once(m, prompt, key, temperature):
-    r = requests.post(GROQ_API, headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-                      json={"model": m, "temperature": temperature, "response_format": {"type": "json_object"},
-                            "messages": [{"role": "system", "content": SYSTEM},
-                                         {"role": "user", "content": prompt + "\n\nKeluarkan hanya JSON."}]},
-                      timeout=180)
+    body = {"model": m, "temperature": temperature, "response_format": {"type": "json_object"},
+            "messages": [{"role": "system", "content": SYSTEM},
+                         {"role": "user", "content": prompt + "\n\nKeluarkan hanya JSON."}]}
+    r = requests.post(GROQ_API, headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"}, json=body, timeout=180)
+    if r.status_code == 400:  # some models don't support JSON mode: ask again without it
+        body.pop("response_format")
+        r = requests.post(GROQ_API, headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"}, json=body, timeout=180)
     if r.status_code == 200:
         return r.status_code, r.json()["choices"][0]["message"]["content"], ""
     return r.status_code, None, r.text[:300]
 
 
 def call_gemini(prompt, api_key, model=None, temperature=0.8):
-    """Writes the script. Gemini first; if it is busy or unavailable, Groq (free) as backup."""
+    """Writes the script. Gemini first; Groq (free) as backup. A used-up quota is never retried."""
     first = model or os.environ.get("GEMINI_TEXT_MODEL", "gemini-3.8-flash")
     extra = os.environ.get("GEMINI_TEXT_FALLBACKS", "gemini-flash-latest")
     providers = [("Gemini", m, _gemini_once, api_key)
                  for m in [first] + [x.strip() for x in extra.split(",") if x.strip() and x.strip() != first]]
     groq_key = os.environ.get("GROQ_API_KEY", "").strip()
     if groq_key:
-        for m in os.environ.get("GROQ_MODELS", "llama-3.3-70b-versatile,openai/gpt-oss-120b").split(","):
-            if m.strip():
-                providers.append(("Groq", m.strip(), _groq_once, groq_key))
+        gm = groq_models(groq_key)
+        print(f"   model Groq yang tersedia: {gm}", flush=True)
+        providers += [("Groq", m, _groq_once, groq_key) for m in gm]
     dead, last = set(), None
-    for rnd in range(4):                       # up to 4 rounds over all providers
+    for rnd in range(3):
         for name, m, fn, key in providers:
             if m in dead:
                 continue
@@ -109,16 +137,17 @@ def call_gemini(prompt, api_key, model=None, temperature=0.8):
                     code, text, err = 0, None, str(e)[:300]
                 if code == 200 and text:
                     print(f"   naskah ditulis oleh {name} ({m})", flush=True)
-                    return text
+                    return extract_json(text)
                 last = f"{name} {m}: HTTP {code} {err}"
-                print(f"   ⚠️ {name} {m}: HTTP {code}, mencoba berikutnya…", flush=True)
-                if code in (400, 401, 403, 404):
-                    dead.add(m)                # not usable with this key: skip from now on
+                quota = code == 429 and ("quota" in err.lower() or "exceeded" in err.lower())
+                print(f"   ⚠️ {name} {m}: HTTP {code}{' (kuota habis)' if quota else ''}", flush=True)
+                if code in (400, 401, 403, 404) or quota:
+                    dead.add(m)                # unusable today: never spend more quota on it
                     break
-                time.sleep(10)
+                time.sleep(15)
         if len(dead) == len(providers):
             break
-        time.sleep(45)                          # everyone busy: wait, then another round
+        time.sleep(45)
     raise RuntimeError(f"Script generation failed (Gemini{' + Groq' if groq_key else ''}): {last}")
 
 
