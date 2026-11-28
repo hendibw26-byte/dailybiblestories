@@ -1,10 +1,15 @@
 {
-  "next_index": 1,
+  "next_index": 2,
   "history": [
     {
       "date": "2026-11-27",
       "title": "Penciptaan Dunia",
       "reference": "Kejadian 1-2"
+    },
+    {
+      "date": "2026-11-28",
+      "title": "Adam & Hawa",
+      "reference": "Kejadian 2-3"
     }
   ]
 }
